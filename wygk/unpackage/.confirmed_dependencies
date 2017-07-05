@@ -1,0 +1,89 @@
+{
+	"html/index.html": {
+		"resources": [
+			"js/setting.js",
+			"img/images/b2.jpg",
+			"js/music.js",
+			"img/images/b1.jpg",
+			"css/index.css",
+			"img/images/5.jpg",
+			"lib/mui.min.js",
+			"lib/jq.js",
+			"img/images/b3.jpg",
+			"img/images/4.jpg",
+			"js/searchs.js",
+			"html/music.html",
+			"img/icon1/iconfont.css",
+			"img/images/3.jpg",
+			"img/images/1.jpg",
+			"lib/swiper-3.4.1.min.js",
+			"lib/swiper-3.4.1.min.css",
+			"img/icon1/iconfont.woff",
+			"js/header.js",
+			"lib/touch.js",
+			"img/images/a2.jpg",
+			"js/me.js",
+			"img/images/a1.jpg",
+			"lib/mui.min.css",
+			"img/images/2.jpg",
+			"html/header.html",
+			"img/images/aaa.jpg",
+			"html/me.html",
+			"html/searchs.html",
+			"html/setting.html",
+			"html/list.html",
+			"html/rank.html",
+			"html/songList.html",
+			"html/detail.html"
+		],
+		"refer": [
+			"html/songList.html",
+			"html/list.html",
+			"html/rank.html",
+			"html/detail.html"
+		]
+	},
+	"html/list.html": {
+		"resources": [
+			"html/index.html",
+			"css/index.css",
+			"img/images/b2.jpg",
+			"img/icon1/iconfont.css",
+			"img/images/b3.jpg",
+			"img/icon1/iconfont.woff",
+			"img/images/b1.jpg",
+			"js/list.js"
+		],
+		"refer": [
+			"html/index.html"
+		]
+	},
+	"html/rank.html": {
+		"resources": [
+			"html/index.html",
+			"js/rank.js"
+		],
+		"refer": [
+			"html/index.html"
+		]
+	},
+	"html/songList.html": {
+		"resources": [
+			"js/songList.js",
+			"img/images/b4.jpg",
+			"html/index.html"
+		],
+		"refer": [
+			"html/index.html"
+		]
+	},
+	"html/detail.html": {
+		"resources": [
+			"html/index.html",
+			"js/detail.js"
+		],
+		"refer": [
+			"html/index.html"
+		]
+	}
+}

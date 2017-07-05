@@ -1,0 +1,1172 @@
+@charset "utf-8";
+*{
+    margin:0rem;
+    padding:0rem;
+    list-style:none;
+    text-decoration:none;
+    box-sizing:border-box;
+    font-size:.14rem;   
+}
+a{
+    color: black;
+}
+b{
+    font-weight:100;
+}
+
+
+i,p{
+    font-style:normal;
+}
+
+html{
+    font-size: 26.67vw;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+.content{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    background-color: ghostwhite;
+}
+/*----头部-----*/
+.content header{
+    width:100%;
+    height:.44rem;
+    background:white;
+    position: fixed;
+    z-index: 9999;
+}
+.content header ul{
+    height:.44rem;
+    width:100%;
+    display:flex;
+}
+.content header ul li{
+    line-height: .44rem;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-size: .16rem;
+}
+.content header ul .mus{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.content header ul .sea{
+    margin-right: 5%;
+    margin-left: 40%;
+}
+.content header ul li.active{
+    border-bottom: .02rem solid brown;
+    color:brown;
+}
+.content header ul li i{
+    font-size: .24rem;
+    color: dimgray; 
+}
+
+.content footer{
+    width: 100%;
+    height: .5rem;
+    background: white;
+    position: fixed;
+    bottom: 0px;
+}
+.content footer .fbt{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content footer .fbt dl{
+    width: 100%;
+    height: .4rem;
+    margin-top: .05rem;
+    display: flex;
+    align-items: center;
+}
+.content footer .fbt dl dt{
+    width: .4rem;
+    margin-left: 3%;
+    margin-top: .1rem;
+    
+}
+.content footer .fbt dl img{
+    width: 100%;
+}
+.content footer .fbt dl dd{
+    margin-left: 5%;
+    width: 20%;
+}
+.content footer .fbt dl dd i{
+    margin-top: .1rem;
+}
+.content footer .fbt dl dd p{
+    font-size: .12rem;
+    color: lightgray;
+    margin-bottom: 0;
+}
+.content footer .fbt dl span{
+    font-size: .22rem;
+    color: gray;
+}
+.content footer .fbt dl span:nth-of-type(1){
+    margin-left: 30%;
+}
+.content footer .fbt dl span:nth-of-type(2){
+    margin-left: 5%;
+}
+.content footer .fbt dl span:nth-of-type(3){
+    margin-left: 5%;
+}
+
+
+
+#music-body{
+    flex:1;
+    overflow:auto;
+    margin-bottom: .5rem;
+    margin-top: .44rem;
+}
+#music-body .swiper-container{
+    height: 1.5rem;
+    width: 100%
+}
+#music-body img{
+    width: 100%;
+    height: 100%;
+}
+#music-body .nav ul{
+    background-color: white;
+    width:100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+#music-body .nav ul li{
+    width: 25%;
+}
+#music-body .nav ul li a{
+    height: .8rem;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+}
+#music-body .nav ul li a i{
+    font-size: 0.28rem;
+    font-weight: 600;
+}
+#music-body .nav ul li a span{
+    font-size: 0.12rem;
+}
+#music-body h2{
+    width: 95%;
+    height: .4rem;
+    line-height: .4rem;
+    padding-left: 5%;
+    font-size: .14rem;
+}
+#music-body h2 i{
+    width: 2px;
+    background-color: brown;
+    font-weight: 100;
+}
+#music-body h2 span{
+    margin-left: 72%;
+    color: brown;
+    font-size: .12rem;
+}
+#music-body h2 span a{
+    color: brown;
+    font-size: .12rem;
+}
+#music-body .list_1{
+    background-color: white;
+    height:3.8rem ;
+}
+#music-body .list_1 ul{
+    width:96%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#music-body .list_1 ul li{ 
+    width: 32%;
+}
+#music-body .list_1 ul li dl{
+    height: 1.6rem;
+    text-align: center;
+}
+#music-body .list_1 ul li dl img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+}
+#music-body .list_1  ul li dl dt{
+    height: 1.2rem;
+}
+
+#music-body .list_1  ul li dl dt i{
+    font-size: .25rem;
+    color: pink;
+    position: relative;
+    bottom:.4rem;
+    left: .3rem;
+}
+#music-body .list_2{
+    background-color: white;
+    height: 3.85rem;
+}
+#music-body .list_2 ul{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#music-body .list_2 ul li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    padding-left: 3%;
+    padding-top: 3%;
+    height: .8rem;
+}
+#music-body .list_2 li dl{
+    display: flex;
+    width: 90%;
+    border-bottom: .011rem solid gainsboro;
+}
+#music-body .list_2 li dt{
+    width: .6rem;
+    height: .6rem;
+}
+#music-body .list_2 li dt img{
+    width: 100%;
+    height: 100%;
+}
+#music-body .list_2 li dd{
+    margin-left: 2%;
+    width: 70%;
+}
+#music-body .list_2 li dd i{
+    line-height: .16rem;
+}
+#music-body .list_2 li dd p{
+    font-size: .14rem;
+    color: grey;
+    margin-top: .2rem;
+}
+
+#music-body .list_2 li span{
+    line-height: .6rem;
+    font-size: .3rem;
+    color: grey;
+}
+#music-body .list_3{
+    background-color: white;
+}
+#music-body .list_3 .column{
+    width: 90%;
+    height: 1.2rem;
+    margin-left: 5%;
+}
+#music-body .list_3 .column img{
+    border-radius: 3%;
+    width: 100%;
+    height: 100%;
+}
+#music-body .list_4{
+    background-color: white;
+}
+#music-body .list_4 ul{
+    width:90%;
+    height: 0.8rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+#music-body .list_4 ul li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    width: 48%;
+}
+#music-body .list_4 ul li:nth-of-type(1){
+    margin-right: 2%;
+}
+#music-body .list_4 ul li img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+}
+
+#me-body{
+    flex:1;
+    overflow:auto;
+    margin-bottom: .44rem;
+    margin-top: .44rem;
+    background-color: ghostwhite;
+}
+#me-body .user dl{
+    width:100%;
+    height: 0.8rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+
+}
+#me-body .user dl dt{
+    width: .5rem;
+    height: .5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#me-body .user dl dt img{
+    width: 100%;
+    border-radius: 50%;
+}
+#me-body .user dl dd{
+    width: 70%;
+}
+#me-body .user dl dd span{
+    margin-right: 72%;
+}
+#me-body .user dl dd i{
+    font-size: .24rem;
+}
+#me-body .user_b {
+    margin-top: .1rem;
+    background-color: white;
+}
+#me-body .user_b ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#me-body .user_b ul li{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: .6rem;
+    align-items: center;
+    border-bottom: .011rem solid ghostwhite;
+}
+#me-body .user_b li dl{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+#me-body .user_b li a{
+    color: black;
+}
+#me-body .user_b li dt{
+    width: .6rem;
+    height: .6rem;
+}
+#me-body .user_b li dt i{
+    font-size: .24rem;
+    font-weight: 600;
+    margin-left: 25%;
+    margin-top: .2rem;
+    display: block;
+}
+#me-body .user_b li dl dd p{
+    color: black;
+}
+#me-body .user_b li dl dd b{
+    font-size: .12rem;
+    color: gainsboro;
+    margin-top: .2rem;
+}
+#me-body .user_b li dl span{
+    margin-left: 60%;
+}
+#me-body .user_c{
+    margin-top: .1rem;
+    background-color: white;
+    height: .6rem;
+}
+#me-body .user_c ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#me-body .user_c ul li{
+    width: 50%;
+}
+#me-body .user_c ul li p{
+    margin-left: 10%;
+}
+#me-body .user_c ul li a{
+    font-size: .12rem;
+    color: red;
+    margin-left:65%;
+}
+
+
+#searchs-header {
+    width:100%;
+    height:.44rem;
+    position: fixed;
+    border-bottom: .011rem solid ghostwhite;
+}
+#searchs-header ul{
+    height:.44rem;
+    width:100%;
+}
+#searchs-header ul a{
+    color: black;
+}
+#searchs-header ul li:nth-of-type(1){
+    margin-left: 5%;
+}
+#searchs-header ul .search{
+    display: flex;
+    width: 2.2rem;
+    height: .3rem;
+    border: 1px solid gainsboro;
+    padding-left: .1rem;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: .07rem;
+    border-radius: .08rem;
+    background-color: ghostwhite;
+}
+#searchs-header ul #soso{
+    border:none;
+    width:1.8rem;
+    height: .28rem;
+    background-color: ghostwhite;
+    font-size: .14rem;
+    padding: 0;
+    margin-bottom: 0;
+}
+#searchs-header ul button{
+    background-color: white;
+    border: none;
+    margin-top: .09rem;
+}
+#searchs-body{
+    height: 100%;
+    flex:1;
+    overflow:auto;
+    width: 100%;
+    padding-top: .44rem;
+}
+#searchs-body h3{
+    width: 80%;
+    color: gray;
+    height: .4rem;
+    line-height: .4rem;
+    margin-left: 5%;
+    font-size: .16rem;
+}
+#searchs-body #hot{
+    width: 100%;
+    height:1.5rem;
+    background-color: white;
+}
+#searchs-body #hot .tit{
+    width: 90%;
+    display: flex;
+    height: 1.1rem;
+    justify-content: center;
+}
+#searchs-body #hot .tit span{
+    background-color: darkseagreen;
+    border-radius: 5px;
+    height: .2rem;
+    border: .011rem solid ghostwhite;
+}
+#searchs-body #his{
+    width: 100%;
+    background-color: white;
+    margin-top: .2rem;
+}
+#searchs-body #his .str{
+    width: 90%;
+    height:.4rem ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#searchs-body #his .str span{
+    margin-left: 5%;
+    color: red;
+}
+#searchs-body #his .searchlist{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+#searchs-body #his .searchlist ul{
+    width: 100%;
+}
+#searchs-body #his .searchlist li{
+    width: 100%;
+    height: .4rem;
+    line-height: .4rem;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: .011rem solid gainsboro;
+}
+#searchs-body #his .searchlist li span{
+    color: red;
+    margin-right: 20%;
+}
+#searchs-body #his .searchlist li p{
+    color: black;
+    height: .4rem;
+    margin: 0;
+}
+
+#setting-header{
+    background-color: white;
+    height: .44rem;
+    width: 100%;
+    position: fixed;
+}
+#setting-header ul{
+    height:.44rem;
+    width:100%;
+    display:flex;
+    align-items: center;
+}
+#setting-header ul li{
+    font-size: .16rem;
+    margin-left: 5%;
+}
+#setting-header ul li a{
+    color: black;
+}
+#setting-body{
+    flex: 1;
+    padding-top: .44rem;
+    width: 100%;
+    height: 100%;
+    background-color: ghostwhite;
+    overflow: auto;
+}
+#setting-body ul{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+#setting-body ul li{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: .5rem;
+    align-items: center;
+    margin-left: 5%;
+    border-bottom: .011rem solid gainsboro;
+}
+#setting-body .top{
+    margin-bottom: .15rem;
+}
+#setting-body .top ul li span{
+    margin-right: 80%;
+}
+#setting-body .bottom ul li span{
+    margin-right: 43%;
+}
+#setting-body .bottom ul li:nth-of-type(2) span{
+    margin-right: 56%;
+}
+#setting-body .bottom ul li:nth-of-type(3) span{
+    margin-right: 50%;
+}
+#setting-body .bottom ul li:nth-of-type(4) span{
+    margin-right: 60%;
+}
+#setting-body .bottom ul li:nth-of-type(5) span{
+    margin-right: 64%;
+}
+#setting-body .bottom ul p{
+    font-size: .12rem;
+    line-height: .5rem;
+    margin: 0;
+}
+#setting-body .title{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: .2rem;
+}
+#setting-body .title ul{
+    background-color: ghostwhite;
+}
+#setting-body .title li{
+    height: .2rem;
+    justify-content: center;
+    font-size: .12rem;
+    align-items: center;
+    color: gray;
+    border: none;
+}
+
+#list-header{
+    background-color: white;
+    height: .44rem;
+    width: 100%;
+    position: fixed;
+    border-bottom: .011rem solid gainsboro;
+    z-index: 3333;
+}
+#list-header ul{
+    height:.44rem;
+    width:100%;
+    display:flex;
+    align-items: center;
+}
+#list-header ul li{
+    font-size: .16rem;
+    margin-left: 5%;
+}
+#list-header ul li a{
+    color: black;
+}
+#list-header ul li:nth-of-type(3){
+    margin-left: 65%;
+}
+#list-header ul li i{
+    font-size: .24rem;
+}
+#list-body{
+    padding-top: .44rem;
+}
+#list-body .list-main{
+    background-color: white;
+}
+#list-body .list-main ul{
+    width:90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+#list-body .list-main ul li{
+    width: 30%;
+    margin-top: 5%;
+}
+#list-body .list-main ul li dl{
+    height: 1.6rem;
+    text-align: center;
+}
+#list-body .list-main ul li dl img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+}
+#list-body .list-main ul li dl dt{
+    height: 1rem;
+    position: relative;
+}
+#list-body .list-main ul li dl dt i{
+    font-size: .25rem;
+    color: pink;
+    position: relative;
+    bottom:.4rem;
+    left: .3rem;
+}
+#list-body .list-main ul li dl dd{
+    justify-content: center;
+}
+#list-body .list-main ul li dl dd span{
+    font-size: .12rem;
+}
+#list-body .list-main ul li dl dd i{
+    font-size: .2rem;
+}
+
+#list-footer{
+    width: 100%;
+    height: .5rem;
+    background: white;
+    position: fixed;
+    bottom: 0px;
+}
+#list-footer.fbt{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+#list-footer .fbt dl{
+    width: 100%;
+    height: .4rem;
+    margin-top: .05rem;
+    display: flex;
+    align-items: center;
+}
+#list-footer .fbt dl dt{
+    width: .4rem;
+    margin-left: 3%;
+    margin-top: .05rem;
+}
+#list-footer .fbt dl img{
+    width: 100%;
+}
+#list-footer .fbt dl dd{
+    margin-left: 5%;
+}
+#list-footer .fbt dl dd p{
+    font-size: .12rem;
+    color: lightgray;
+    margin-top: .05rem;
+}
+#list-footer .fbt dl span{
+    font-size: .22rem;
+    color: gray;
+}
+#list-footer .fbt dl span:nth-of-type(1){
+    margin-left: 40%;
+}
+#list-footer .fbt dl span:nth-of-type(2){
+    margin-left: 5%;
+}
+#list-footer .fbt dl span:nth-of-type(3){
+    margin-left: 5%;
+}
+
+#rank-header{
+    background-color: white;
+    height: .44rem;
+    width: 100%;
+    position: fixed;
+    border-bottom: .011rem solid gainsboro;
+}
+#rank-header ul{
+    height:.44rem;
+    width:100%;
+    display:flex;
+    align-items: center;
+}
+#rank-header ul li{
+    font-size: .16rem;
+    margin-left: 5%;
+}
+#rank-header ul li a{
+    color: black;
+}
+#rank-header ul li:nth-of-type(3){
+    margin-left: 65%;
+}
+#rank-header ul li i{
+    font-size: .24rem;
+}
+#rank-body{
+    padding-top: .44rem;
+    margin-bottom: .5rem;
+}
+
+#rank-footer{
+    width: 100%;
+    height: .5rem;
+    background: white;
+    position: fixed;
+    bottom: 0px;
+}
+#rank-footer.fbt{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+#rank-footer .fbt dl{
+    width: 100%;
+    height: .4rem;
+    margin-top: .05rem;
+    display: flex;
+    align-items: center;
+}
+#rank-footer .fbt dl dt{
+    width: .4rem;
+    margin-left: 3%;
+    margin-top: .05rem;
+}
+#rank-footer .fbt dl img{
+    width: 100%;
+}
+#rank-footer .fbt dl dd{
+    margin-left: 5%;
+}
+#rank-footer .fbt dl dd p{
+    font-size: .12rem;
+    color: lightgray;
+    margin-bottom: 0;
+}
+#rank-footer .fbt dl span{
+    font-size: .22rem;
+    color: gray;
+}
+#rank-footer .fbt dl span:nth-of-type(1){
+    margin-left: 40%;
+}
+#rank-footer .fbt dl span:nth-of-type(2){
+    margin-left: 5%;
+}
+#rank-footer .fbt dl span:nth-of-type(3){
+    margin-left: 5%;
+}
+#rank-body .rank-content{
+    width: 100%;
+}
+#rank-body .rank-content .hot{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    height: 1.6rem;
+    background-color: indianred;
+    border-radius: 5px;
+    color: white;
+    overflow: hidden;
+}
+#rank-body .rank-content .hot .hed{
+    font-size: .16rem;
+    height: .4rem;
+    line-height: .4rem;
+    margin-left: 5%;
+}
+#rank-body .rank-content .hot .hed b{
+    margin-left: 50%;
+}
+#rank-body .rank-content .hot ul{
+    width: 100%;
+    height: 1.2rem;
+    overflow: hidden;
+}
+#rank-body .rank-content .hot ul li{
+    width: 100%;
+    height: .3rem;
+    line-height: .3rem;
+    display: flex;
+    overflow: hidden;
+}
+
+#rank-body .rank-content ul li span{
+    margin-left: 5%;
+    font-size: .14rem;
+    margin-right: 30%;
+}
+#rank-body .rank-content ul li p{
+    font-size: .12rem;
+    color: ghostwhite;
+}
+#rank-body .rank-content .hot i{
+    font-size: .26rem;
+    position: relative;
+    bottom: 0.3rem;
+    left:3rem;
+}
+#rank-body .rank-content .hot a{
+    color: white;
+}
+
+#rank-body .rank-content #hot2{
+    background-color: slategrey;
+}
+#rank-body .rank-content #hot3{
+    background-color: #0086B3;
+}
+#rank-body .rank-content #hot4{
+    background-color: orange;
+}
+
+#songList-header{
+    background-color: lightskyblue;
+    height: .44rem;
+    width: 100%;
+    position: fixed;
+    color: white;
+    z-index: 100;
+}
+#songList-header ul{
+    height:.44rem;
+    width:100%;
+    display:flex;
+    align-items: center;
+}
+#songList-header ul li{
+    font-size: .16rem;
+    margin-left: 5%;
+}
+#songList-header ul li a{
+    color: white;
+}
+#songList-header ul li:nth-of-type(3){
+    margin-left: 60%;
+}
+#songList-header ul li i{
+    font-size: .24rem;
+    color: white;
+}
+#songList-footer{
+    width: 100%;
+    height: .5rem;
+    background: white;
+    position: fixed;
+    bottom: 0px;
+}
+#songList-footer.fbt{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+#songList-footer .fbt dl{
+    width: 100%;
+    height: .4rem;
+    margin-top: .05rem;
+    display: flex;
+    align-items: center;
+}
+#songList-footer .fbt dl dt{
+    width: .4rem;
+    margin-left: 3%;
+    margin-top: .05rem;
+}
+#songList-footer .fbt dl img{
+    width: 100%;
+}
+#songList-footer .fbt dl dd{
+    margin-left: 5%;
+}
+#songList-footer .fbt dl dd p{
+    font-size: .12rem;
+    color: lightgray;
+    margin-top: .05rem;
+}
+#songList-footer .fbt dl span{
+    font-size: .22rem;
+    color: gray;
+}
+#songList-footer .fbt dl span:nth-of-type(1){
+    margin-left: 40%;
+}
+#songList-footer .fbt dl span:nth-of-type(2){
+    margin-left: 5%;
+}
+#songList-footer .fbt dl span:nth-of-type(3){
+    margin-left: 5%;
+}
+#songList-body{
+    padding-top: .44rem;
+}
+#songList-body .songList-main{
+    width: 100%;
+}
+#songList-body .songList-main .sl-top-o{
+    width: 100%;
+    height: 2rem;
+    padding-top: .1rem;
+    background-color:lightskyblue;
+}
+#songList-body .songList-main .sl-top-i{
+    width: 90%;
+    height: 1.8rem;
+    background-color: white;
+    margin-left: 5%;
+}
+#songList-body .songList-main .sl-top-i dl{
+    height: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: .15rem;
+    margin-left: .15rem;
+}
+#songList-body .songList-main .sl-top-i dl dt{
+    width: 1rem;
+    height: 1rem;
+}
+#songList-body .songList-main .sl-top-i dl dt img{
+    width: 100%;
+}
+#songList-body .songList-main .sl-top-i dl dd{
+    width: 50%; 
+    margin-left: .15rem;
+}
+#songList-body .songList-main .sl-top-i dl dd p{
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+    font-size: .14rem;
+}
+#songList-body .songList-main .sl-top-i dl dd b{
+    font-size: .12rem;
+    color: #222222;
+}
+#songList-body .songList-main .sl-top-i dl dd i{
+    font-size: .12rem;
+    color: #222222;
+}
+#songList-body .songList-main .sl-top-i span{
+    font-size: .12rem;
+    color: #222222;
+    padding-left: .15rem;
+    display: inline-block;
+    margin-top: .1rem;
+}
+#songList-body .songList-main .sl-cent ul{
+    height: .6rem;
+    width: 100%;
+    display: flex;   
+}
+#songList-body .songList-main .sl-cent ul i{
+    font-size: .24rem;
+}
+#songList-body .songList-main .sl-cent ul li{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    line-height: 1;
+    color: grey;
+}
+#songList-body .songList-main .sl-cent ul span{
+    font-size: .14rem;
+}
+#songList-body .songList-main .sl-foot{
+    width: 90%;
+    margin-left: 5%;
+}
+#songList-body .songList-main .sl-foot ul{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: .6rem;
+}
+#songList-body .songList-main .sl-foot ul li{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: .1rem;
+}
+#songList-body .songList-main .sl-foot ul li img{
+    width: .6rem;
+    height: .6rem;
+}
+#songList-body .songList-main .sl-foot ul li div{
+    margin-left: .2rem;
+    width: 2rem;
+}
+#songList-body .songList-main .sl-foot ul li div p{
+    margin-top: .2rem;
+    font-size: .12rem;
+    color: grey;
+}
+#songList-body .songList-main .sl-foot ul li i{
+    font-size: .28rem;
+    margin-right: 7%;
+    align-items: center;
+    margin-top: .1rem;
+}
+#detail-header{
+    background-color: #222222;
+    height: .44rem;
+    width: 100%;
+    position: fixed;
+    color: white;
+}
+#detail-header ul{
+    height:.44rem;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#detail-header ul li{
+    font-size: .14rem;
+    display: flex;
+}
+#detail-header ul li span{
+    
+}
+#detail-header ul li a{
+    color: white;
+}
+
+#detail-header ul li i{
+    font-size: .22rem;
+    color: white;
+}
+#detail-body{
+    width: 100%;
+}
+#detail-body .dt-box{
+    width: 100%;
+    height: 2.2rem;
+    background-color: #222222;
+}
+#detail-body .swiper-container{
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+#detail-body img{
+    width: 100%;
+    height: 100%;
+}
+#detail-body .dt-jdt{
+    position: relative;
+    top:2rem;
+    height: .4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#detail-body .dt-icon{
+    height: .5rem;
+    position: relative;
+    top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#detail-body .dt-icon i{ 
+    font-size: .36rem;
+    color: #404040;
+}
+#detail-body .dt-icon .icon-yinlebofang{
+    font-size: .5rem;
+}
+#detail-body .dt-icon .icon-bofang1{
+    font-size: .5rem;
+}
+#detail-body .dt-foot{
+    width: 100%;
+    height: .44rem;
+    position: fixed;
+    bottom: 0px;
+}
+#detail-body .dt-foot ul{
+    width: 80%;
+    height: .44rem;
+    margin-left: 10%;
+    display: flex;
+}
+#detail-body .dt-foot ul i{
+    font-size: .24rem;
+}
+#detail-body .dt-foot ul li{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    color: dimgray;
+}

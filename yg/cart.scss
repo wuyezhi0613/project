@@ -1,0 +1,189 @@
+.w{
+    width: 900px;
+    margin: 0 auto;
+}
+#header{
+    overflow: hidden;
+}
+#header .w .logo{
+    float: left;
+    margin-top: 20px;
+}
+#header .w .right{
+    margin-top: 20px;
+}
+#header .w .topxia{
+    float: left;
+    margin-top: 20px;
+}
+#content{
+    overflow: hidden;
+}
+#content .w .shang{
+    height: 80px;
+    line-height:40px;
+    border: 1px solid #DDDDDD;
+    border-top:2px solid #666666;
+    background-color: #f3f3f3;
+    font-weight: 100;
+}
+#content .w .shang span{
+    height: 46px;
+    line-height: 46px;
+    float: left;
+    font-weight: 100;
+    font-size: 14px;
+}
+#content .w .shang span.title1{
+    margin-left: 60px;
+}
+#content .w .shang span.title2{
+    margin-left: 200px;
+}
+#content .w .shang span.title3{
+    width:200px;
+    margin-left: 150px;
+}
+#content .w .shang span.title4{
+    margin-left: 20px;
+}
+#content .w .shang span.title5{
+    margin-left: 50px;
+}
+#content .w .mid .buygood{
+    height: 100px;
+    border: 1px solid #DDDDDD;
+    border-top: none;
+}
+#content .w .mid .buygood .midleft{
+    padding: 0 30px;
+    width: 370px;
+}
+#content .w .mid .buygood img{
+    widows: 70px;
+    height: 70px;
+    margin: 15px;
+}
+#content .w .mid .buygood .infor{
+    margin-top: 20px;
+}
+#content .w .mid .buygood a.goodname{
+    cursor: pointer;
+    display: inline-block;
+    color: blue;
+}
+#content .w .mid .buygood .infor span{
+    display: inline-block;
+    height: 24px;
+    margin-top: 10px;
+}
+#content .w .mid .midmid{
+    width: 50px;
+    height: 100px;
+    line-height: 100px;
+}
+#content .w .mid .midright{
+    height: 100px;
+    line-height: 100px;
+}
+#content .w .mid .midright .youhuo{
+    float: left;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    display: inline-block;
+    margin-top: 0;
+}
+#content .w .mid .midright input.txt{
+    line-height: 30px;
+    margin-top: 34px;
+    float: left;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    display: inline-block;
+    border-left: none;
+    border-right: none; 
+}
+#content .w .mid .midright input.btnl,input.btnr{
+    margin-top:34px;
+    float: left;
+    width: 20px;
+    height: 32px;
+    border: 1px solid black;
+}
+#content .w .mid .midright .goodprice{
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 14px;
+}
+#content .w .mid .del{
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: blue;
+}
+#content .w .clear{
+    height: 46px;
+    line-height: 46px;
+    border: 1px solid #ddd;
+    border-bottom: 2px solid #666;
+    background-color: #f3f3f3;
+    
+}
+#content .w .clear a{
+    display: inline-block;
+    float: left;
+    color: blue;
+    margin-left: 50px;
+}
+#content .w .clear .allmoney{
+    font-size: 14px;
+    float: right;
+    margin-right: 20px;
+}
+
+
+#footer{
+    height: 50px;
+}
+.ww{
+    width: 1200px;
+    margin: 0 auto;
+}
+#footer .ww{
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+#footer .ww .jixugouwu{
+    background-color: #f6f6f6;
+    border: 1px solid #eee;
+    cursor: pointer;
+    margin-right: 370px;
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#footer .ww .qujiesuan{
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #d32402;
+    border: none;
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+}
+

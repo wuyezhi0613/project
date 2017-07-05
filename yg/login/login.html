@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户登陆</title>
+		<link type="img/x-icon" rel="shortcut icon" href="../img/icon.jpg" />
+		<link rel="stylesheet" type="text/css" href="../css/loginStyle.css" />
+	</head>
+	<body>
+		<div id="top">
+			<div class="w">
+		        <a href="../index.html"><img src="../img/icon.jpg"/></a>
+		        <img src="../img/biaoyu-huanyingdenglu.png" alt=""/>	        
+		    </div>
+		</div>
+		<div id="login">
+			<div class="w">
+				<div class="left l">
+					<img src="../img/loginleft.png" />
+				</div>
+				<div class="right l">
+					手机号或邮箱<br />
+					<input class="tel" type="text" /><span class="telerror1">不能为空</span><br />
+					密码/短信登陆码<input class="yzmbtn" type="button" value="发送短信验证码"/><br />
+					<input class="pwd yzmtxt" type="password" /><span class="telerror2">密码错误</span><br />
+					<input id="lblcb" class="cb" type="checkbox" checked/><label for="lblcb">自动登录 &nbsp;</label><a href="#">忘记密码？</a>
+					<span class="zc"><a href="register.html"></a></span><br />
+					<input class="loginbtn" type="button" value="登陆" /><br />
+					
+					<div class="compare">
+						<span class="l">使用合作网站登陆： &nbsp;</span>
+						<a href="https://auth.alipay.com"><img class="l" src="../img/zfb.jpg" alt="" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="bottom">
+			<div class="w1">
+				<div class="bot1">
+					<p><b>帮助中心</b></p><br/>
+					<p>购物流程</p>
+					<p>使用订单状态说明</p>
+				</div>
+				<div class="bot1">
+					<p><b>配送方式</b></p><br/>
+					<p>免费配送地区</p>
+					<p>配送范围</p>
+				</div>
+				<div class="bot1">
+					<p><b>支付方式</b></p><br/>
+					<p>货到付款</p>
+					<p>银联支付</p>
+					<p>支付宝</p>
+					<p>微信支付</p>
+				</div>
+				<div class="bot1">
+					<p><b>客户服务</b></p><br/>
+					<p>售后及退换货</p>
+					<p>在线客服</p>
+				</div>
+				<div class="bot1">
+					<p><b>会员中心</b></p><br/>
+					<p>资料修改</p>
+					<p>找回密码</p>
+					<p>会员等级</p>
+					<p>会员权益</p>
+				</div>
+				<div class="bot1">
+					<p><b>招商中心</b></p><br/>
+					<p>关于我们</p>
+					<p>合作流程</p>
+					<p>联系我们</p>
+					<p>供应商系统</p>
+				</div>
+				<div class="bot1">
+					<p><b>关注我们</b></p><br/>
+					<p>招贤纳士</p>				
+				</div>
+				<div class="bot1">
+					<span class="dgrx">订购热线</span>
+					<span class="dgrxtel">4001-677-077</span>
+				</div>					
+			    <br/><br/> 
+			</div> 
+			<br/><br/> 
+			    <span><a href=""> 触屏版</a> | <a href="">电脑版</a></span><br />
+			I   CP经营许可证：赣ICP备15000001号<br />
+			    24小时订购和服务热线：4001-677-077<br />
+			    Copyright 2008-2014，www.fstvgo.com 易购网 版权所有<br />
+			          本网站用字经北京北大方正电子有限公司授权许可 <br /><br /><br />
+		</div>
+		
+		<script src="../js/login.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/ajax.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>	
+		<script type="text/javascript">
+			$(function(){		
+		         $(".loginbtn").click(function(){
+			         $.post(
+				        "../php/login.php",
+				        {
+					        "tel":$(".tel").val(),
+					        "pwd":$(".pwd").val()
+				        },
+				        function(data){					
+					        if(data=="0"){//登录成功！
+						        saveCookie("tel",$(".tel").val(),11);
+						        location.href="index.html";
+					        }else{
+						        $(".tel").val("");
+						        $(".pwd").val("");
+
+					        }
+				        }
+			        );
+		        });
+	        });
+		</script>
+	</body>
+</html>

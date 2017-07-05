@@ -1,0 +1,10 @@
+{
+	"type":["0","1"],
+	"list":[
+		{"id":"1", "title":"去污粉", "content":"秒主妇橘子传说去污霸", "img":"remai1.jpg", "price":"￥179","songjifen":"送1.0积分","type":"1"},
+		{"id":"2", "title":"拖把", "content":"不锈钢敬佩拖把1.1惊喜", "img":"remai2.jpg", "price":"￥199","songjifen":"送1.0积分","type":"1"},
+		{"id":"3", "title":"洗洁精", "content":"港丽最好用的洗洁精", "img":"remai3.jpg", "price":"￥199","songjifen":"送1.0积分","type":"1"},
+		{"id":"4", "title":"衣架", "content":"圆心弹性记忆钢片衣架超值组", "img":"remai4.jpg", "price":"￥299","songjifen":"送1.0积分","type":"1"},
+	],
+	"maxGoods":4
+}

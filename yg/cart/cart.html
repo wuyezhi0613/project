@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link type="img/x-icon" rel="shortcut icon" href="../img/icon.jpg" />
+		<link rel="stylesheet" type="text/css" href="../css/publick.css" />
+		<link rel="stylesheet" type="text/css" href="../css/cart.css" />
+	</head>
+	
+	<body>
+		<div id="top">
+				<div class="w">
+				    <ul class="topul r">
+					    <li >
+						    <a style="color: red;" href="#">欢迎来到易购网</a>
+					    </li>
+					    <li  class="toplogin">
+						    <a href="../login/login.html">登陆</a>
+					    </li>
+					    <li  class="mid">
+						    <a href="../login/register.html">免费注册   <p>送50元充值券</p></a>
+					    </li>
+					    <li>
+						    <a href="#">电话订购会员登录  <p>送50元</p></a>
+					    </li>
+					    <li class="toplast">
+						    <a href="#">我的易购</a>
+						    <ul class="personList">
+							    <li>
+								    <a href="#">我的订单</a>
+							    </li>
+							    <li>
+								    <a href="#">我的积分</a>
+							    </li>
+							    <li>
+								    <a href="#">我的优惠</a>
+							    </li>
+							    <li>
+								    <a href="#">我的消息</a>
+							    </li>
+							    <li>
+								    <a href="#">我的收藏</a>
+							    </li>
+						    </ul>
+					    </li>
+				    </ul>
+				</div>
+			</div>
+			<!--
+            	描述：顶部欢迎图
+            -->
+            <div id="topad">
+				<div class="w"></div>
+			</div>
+			<div id="header">
+			    <div class="w">
+				    <a class="logo" href="../index.html"><img src="../img/icon.jpg"/></a>
+				    <img class="r right" src="../img/carttopright.jpg" alt="" />
+				    <img class="topxia" src="../img/cartopxia.jpg"/>
+			    </div>
+		    </div>
+		    <div id="content">
+		    	<div class="w">
+		    		<h3 class="shang"><span class="title1">商品</span><span class="title2">易购价</span>
+		    		    <span class="title3">
+		    		        <select id="pro">
+			                    <option>省份</option>
+		                    </select>
+		                    <select id="city">
+			                    <option>城市</option>
+		                    </select>
+		                    <select id="area">
+			                    <option>区县</option>
+			                </select> 
+			            </span>
+			            <span class="title4">数量</span>
+			            <span class="title5">金额小计</span>
+			        </h3>
+			        <div class="mid goodmid">
+			        <!--<div class="buygood">
+			                <div class="midleft l">
+							    <img class="l" src="../img/remai1.jpg" alt="" />
+						        <div class="infor l">
+								    <a class="goodname">去污粉</a><br />
+								    <span>商品编号：</span>
+								    <span>颜色：</span>
+								    <span>规格：</span>
+							    </div>
+						    </div>
+						    <div class="midmid l">
+							    ￥139
+						    </div>
+						    <div class="midright l">
+							    <span class="youhuo">有货</span>
+							    <input class="btnl" type="button" value="-" /><input class="txt" type="text" value="1" /><input class="btnr" type="button" value="+" />
+							    <span class="goodprice">￥234</span>
+						    </div>
+						    <a class="del" href="">收藏删除</a>
+					    </div>-->
+			        </div>
+			        <div class="clear" index='12'>
+			        	<a class="clearCart" href="javascript:void(0)">清空购物车</a>
+			        	<span class="allmoney">共计：32974</span>
+			        </div>
+		    	</div>
+		    </div>
+		    <div id="footer">
+			    <div class="ww">
+				    <input class="jixugouwu" type="button" value="继续购物" onclick="jixugouwu()" />
+				    <span class="right">填写送货地址 积分抵扣 优惠券使用 请点击-></span>
+				    <input class="qujiesuan" type="button" value="去结算>" />
+			    </div>
+		    </div>
+		    <div id="bottom">
+			    <div class="ww"></div><br /><br />
+			        <span><a href=""> 触屏版</a>  <a href="">电脑版</a></span><br />
+			        ICP经营许可证：赣ICP备15000001号<br />
+			        24小时订购和服务热线：4001-677-077<br />
+			        Copyright 2008-2014，www.fstvgo.com 易购网版权所有<br />
+			                     本网站用字经北京北大方正电子有限公司授权许可 <br /><br /><br />
+		    </div>
+		    		    
+		<script src="../js/cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/publick.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/ajax.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/cart.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/style.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

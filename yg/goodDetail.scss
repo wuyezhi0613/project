@@ -1,0 +1,336 @@
+#path .w{
+    height: 40px;
+    background-color: #eeeeee;
+    position: relative;
+}
+#path .w a{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    margin: 0 5px;
+}
+#path .w a.first{
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#shang .w .left{
+    width: 400px;
+    height: 500px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+#box1{
+    float: left;
+    display: inline-block;
+    position: relative;
+}
+#box1 img{
+    width: 400px;
+    height: 400px;
+}
+#glass{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: white;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    display: none;
+}
+#bigImg{
+    display: inline-block;
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#box2{
+    border: 1px solid black;
+    float: left;
+    position: absolute;
+    left: 400px;
+    display:inline-block;
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    overflow: hidden;
+    margin-top: 20px;
+    display: none;
+}
+#shang{
+    overflow: hidden;
+}
+#shang .w .left .xiaoimg{
+    height: 80px;
+    width: 398px;
+    border-top: 1px solid #AAAAAA;
+    margin: 8px 0;
+    float: left;
+}
+#shang .w .left .xiaoimg img{
+    width: 50px;
+    height: 50px;
+    margin: 20px 20px;
+    border: 1px solid #DDDDDD;
+}
+#shang .w .mid{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 440px;
+}
+#shang .w .mid h3{
+    height: 30px;
+}
+#shang .w .mid .xscx,.gmsl{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+#shang .w .mid .xscc,.gmsl{
+    display: inline-block;
+}
+#shang .w .mid .num{
+    text-align: center;
+    margin: 0 5px;
+    width: 35px;
+    height: 20px;
+    display: inline-block;
+}
+#shang .w .mid .ti1{
+    font-size: 16px;
+}
+#shang .w .mid .ti2{
+    font-size: 16px;
+    font-weight: 100;
+    color: red;
+}
+#shang .w .mid .pricep{
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+}
+hr{
+    color: #DDDDDD;
+}
+#shang .w .mid .buy,.addcart{
+    margin-top: 30px;
+    width: 176px;
+    height: 40px;
+    line-height: 35px;
+    background-color: #2ca431;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#shang .w .mid .addcart{
+    background-color: #f37b15;
+}
+#shang .w .right{
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.fenlei{
+    margin-top: 20px;
+    overflow: hidden;
+    border: 1px solid #DDDDDD;
+}
+#xia {
+    overflow: hidden;
+}
+#xia .w .left{
+    width: 242px;
+}
+#xia .w .left h3{
+    padding-left: 20px;
+    border-bottom: 1px solid #DDDDDD;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 100;
+    background-color: #f7f7f7;
+}
+#xia .w .left a{
+    display: inline-block;
+    color: #666;
+    margin: 10px 20px;
+}
+#xia .w .left .fenlei img{
+    margin-left: 20px;
+}
+#xia .w .left .ys a{
+    display: inline-block;
+    color: #666666;
+    margin: 5px;
+    margin-left: 20px;
+    width: 50px;
+}
+#xia .w .left .rem p{
+    font-size: 14px;
+    text-align:center;
+}
+.cu{
+    color: red;
+    font-weight: bold;
+}
+#xia .w .right{
+    padding: 20px;
+    margin: 20px;
+    margin-right: 0;
+    width: 890px;
+    overflow: hidden;
+}
+#xia .w .right .ul{
+    z-index: -1;
+    height: 43px;
+    border-bottom: 1px solid firebrick;
+}
+#xia .w .right a{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    text-align: center;
+    border-right:1px solid #DDDDDD ;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid white;
+}
+#xia .w .right a.aone{
+    z-index: 1;
+    border-left:1px solid #DDDDDD ;
+    border-top: 2px solid firebrick;
+    border-bottom: 2px solid white;
+}
+#xia .w .right a:hover{
+    text-decoration: none;
+}
+#xia .w .right .one{
+    padding-top:10px;
+    overflow: hidden;
+    border: 1px solid #DDDDDD;
+    border-top: none;
+}
+#xia .w .right .two,.three,.four{
+    display: none;
+}
+#xia .w .right .four span.haoping{
+    font-weight: bold;
+    float: left;
+    height: 80px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #666666;
+    color: red;
+    font-size: 50px;
+    display: block;
+    width: 850px;
+    padding: 0 20px;
+}
+#xia .w .right .four span.hpd{
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    font-weight: 100;
+}
+#xia .w .right .four span.allpf{
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 100;
+    color: black;
+    display: block;
+}
+
+#chat{
+    background-color: skyblue;
+    width: 250px;
+    height: 300px;
+    position: fixed;
+    right: -250px;
+    bottom: 50px;
+    z-index: 5;
+    
+}
+#chat .pingmu{
+    width: 230px;
+    margin: 10px;
+    height: 200px;
+    background-color: white;
+    margin-top: 20px;
+}
+#chat .shuru{
+    display: inline-block;
+    resize: none;
+    width: 175px;
+    margin-left: 10px;
+    height: 50px;
+    
+}
+#chat .close{
+    display: inline-block;
+    height: 27px;
+    width: 50px;
+    margin-left: 3px;
+}
+#chat .fasong{
+    height: 27px;
+    line-height: 25px;
+    width: 50px;
+    margin-left: 3px;
+}
+#chat .chattishi{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: red;
+    position: absolute;
+    left: 0px;
+    margin-left: -30px;
+    top: 0px;
+    height: 90px;
+    width: 30px;
+    background-color: skyblue;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+#footer{
+    height: 50px;
+}
+#footer .w{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 2px solid #DDDDDD;
+}
+#footer .w span.left{
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+}
+#footer .w span.right{
+    font-size: 14px;
+    font-weight: bold;
+    color: #FF0000;
+}
+#footer .w input.txt{
+    line-height: 26px;
+    height: 26px;
+    display: inline-block;
+    width: 334px;
+
+}
+#footer .w input.btn{
+    cursor: pointer;
+    height: 30px;
+    border: none;
+    background-color: #A70000;
+    width: 56px;
+    border-radius: 3px;
+}
+

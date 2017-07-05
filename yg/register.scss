@@ -1,0 +1,130 @@
+body,h1,h2,h3,h4,h5,h6,a,p,img,li,ol,dl,ul,dt,dd,input,span{
+    margin: 0; padding: 0;
+}
+body{font-size:12px;font-family: Microsoft Yahei;}
+ul,ol{list-style: none;}
+img{border: 0;}
+a{text-decoration: none; color: black;outline: none;}
+a:hover{text-decoration: underline; }
+
+.l{float: left;}
+.r{float: right;}
+.w{margin: 0 auto; width: 900px;}
+/*-------------------------------------*/
+#top .w{
+    padding-top: 30px;
+    height: 140px;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+#top .w .title{
+    text-align: center;
+    display: block;
+    width: 100px;
+    height: 39px;
+    line-height: 39px;
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    margin-left: -50px;
+    border: 1px solid #000000;
+    border-bottom: 1px solid white;
+    border-top-left-radius:5px ;
+    border-top-right-radius: 5px;
+    color: #D32402;
+    font-size: 14px;
+    font-weight: bold;
+}
+#top .w span{
+    float: right;
+    margin-top: 110px;
+    margin-right: 10px;
+}
+#top .w span a{
+    color: #D32402;
+}
+.w2{
+    width: 1200px;
+    margin: 0 auto;
+}
+#register .w2{
+    height: 510px;
+}
+#register .w2 .left{
+    height: 510px;
+    margin-left: 100px;
+}
+#register .w2 .left img{
+    margin-top: 30px;
+}
+#register .w2 .right{
+    height: 510px;
+    width: 680px;
+}
+#register .w2 .right dl{
+    padding-top:30px;
+    width: 680px;
+    height: 480px;
+    margin-left: 20px;
+    color: #AAAAAA;
+}
+#register .w2 .right dl dt{
+    color: black;
+    margin-right: 20px;
+    text-align: right;
+    float: left;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 18px;
+}
+#register .w2 .right dl dd{
+    float: left;
+    width: 580px;
+    height: 40px;
+    margin-top: 18px;
+    line-height: 40px;
+}
+#register .w2 .right dl input{
+    line-height: 38px;
+    border: 1px solid #DDDDDD;
+    height: 38px;
+    width: 240px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+#register .w2 .right dl input.yzmtxt{
+    width: 150px;
+}
+#register .w2 .right dl input.getyzm{
+    width: 100px;
+    padding-left: 0;
+    border: 1px solid black;
+    background-color: #eee;
+    cursor: pointer;
+}
+#register .w2 .right dl input.cb{
+    outline: none;
+    border: none;
+    width: 10px;
+    height: 10px;
+}
+#register .w2 .right dl input.registerbtn{
+    cursor: pointer;
+    background-color: #d32402;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 10px;
+}
+#register .w2 .right dl span.red{
+    color: red;
+}
+#register .w2 .right dl span p{
+    white-space: nowrap;
+    display: inline-block;
+}
+#register .w2 .right dl span .err{
+    overflow: hidden;
+}

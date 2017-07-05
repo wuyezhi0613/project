@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>易购网</title>
+		<link type="img/x-icon" rel="shortcut icon" href="img/icon.jpg" />
+		<link rel="stylesheet" type="text/css" href="css/publick.css" />
+		<link rel="stylesheet" type="text/css" href="css/indexCss.css" />
+	</head>
+	<body>
+		<div id="fanhui" onclick="toTop()">TOP</div><!-- 返回顶部--> 
+		<!--
+        	描述：顶部菜单栏
+        -->
+			<div id="top">
+				<div class="w">
+				    <ul class="topul">
+					    <li >
+						    <a style="color: red;" href="#">欢迎来到易购网</a>
+					    </li>
+					    <li  class="toplogin">
+						    <a href="login/login.html">登陆</a>
+					    </li>
+					    <li  class="mid">
+						    <a href="login/register.html">免费注册   <p>送50元充值券</p></a>
+					    </li>
+					    <li>
+						    <a href="#">电话订购会员登录  <p>送50元</p></a>
+					    </li>
+					    <li class="toplast">
+						    <a href="#">我的易购</a>
+						    <ul class="personList">
+							    <li>
+								    <a href="#">我的订单</a>
+							    </li>
+							    <li>
+								    <a href="#">我的积分</a>
+							    </li>
+							    <li>
+								    <a href="#">我的优惠</a>
+							    </li>
+							    <li>
+								    <a href="#">我的消息</a>
+							    </li>
+							    <li>
+								    <a href="#">我的收藏</a>
+							    </li>
+						    </ul>
+					    </li>
+				    </ul>
+				</div>
+			</div>
+			<!--
+            	描述：顶部欢迎图
+            -->
+			<div id="topad">
+				<div class="w"></div>
+			</div>
+			<!--
+            	描述：搜索框，购物车
+            -->
+		    <div id="navtop">
+		    	<div class="w">
+		    		<h1 class="l" id="indexlogo"><a></a>易购网</h1>
+		    	    <span class="erweima l"></span>
+				<div class="search l">
+					<input class="searchtxt l" type="text" placeholder="请输入商品的关键词或货号" onkeyup="show()" /><input class="searchbtn l" type="button" value="搜索" />
+					<div id="div1"></div>
+					<ul class="searchList">
+						<li>热门搜索:</li>
+						<li>
+							<a href="main/navPage1.html?id=沙发">沙发</a>
+						</li>
+						<li>
+							<a href="main/navPage1.html?id=手机">手机</a>
+						</li>
+						<li>
+							<a href="main/navPage1.html?id=去污粉">去污粉</a>
+						</li>
+						<li>
+							<a href="main/navPage1.html?id=拖把">拖把</a>
+						</li>
+						<li>
+							<a href="main/navPage1.html?id=沙发">照相机</a>
+						</li>
+						<li>
+							<a href="main/navPage1.html?id=洗洁精">洗洁精</a>
+						</li>
+						<li>
+							<a href="main/navPage1.html?id=饮水机">饮水机</a>
+						</li>
+					</ul>
+				</div>
+				<span class="dhzf l"></span>
+				    <a class="cart l">
+					           去购物车结算 <i></i>
+				    </a>
+				<p class="cartNum" id="cartNum">0</p>
+		    </div>
+		</div>   
+		<!--
+        	描述：导航栏
+        -->
+        <div id="navdown">
+        	<div class="w">
+        		<ul class="navleft l"><!--一级导航-->
+        			<li class="first navleftli">
+        				<a class="navlefta">全部商品分类</a>
+        				<ul class="lefttwo"><!--二级导航-->
+        					<li class="lefttwoli1">
+        						<a href ="main/goodsList.html?type=0">家居生活</a>
+        						<div class="threebg"><!--三级导航-->
+        							<ul class="left l">
+        								<li>
+        									<a href="#">家居用品</a>
+        								</li>
+        								<li>
+        									<a href="#">卧室床品</a>
+        								</li>
+        								<li>
+        									<a href="#">厨浴电器</a>
+        								</li>
+        								<li>
+        									<a href="#">汽车用品</a>
+        								</li>
+        							</ul>
+        							<ul class="mid l">
+        								<li class="midfirst">推荐品牌</li>
+        								<li>
+        									<a href="#">居然之家</a>
+        								</li>
+        								<li>
+        									<a href="#">妙主妇</a>
+        								</li>
+        								<li>
+        									<a href="#">波司登</a>
+        								</li>
+        								<li>
+        									<a href="#">天蚕</a>
+        								</li>
+        								<li>
+        									<a href="#">格力</a>
+        								</li>
+        								<li>
+        									<a href="#">老板电器</a>
+        								</li>
+        								<li>
+        									<a href="#">厨邦</a>
+        								</li>
+        							</ul>
+        							<ol class="right l"> 
+        								<li>热门活动</li>
+        								<li class="img"><img src="img/threeright.jpg" alt="活动"/></li>
+        							</ol>
+        						</div>
+        					</li>
+        					<li class="lefttwoli1">
+        						<a href="main/goodsList.html?type=2">数码家电</a>
+        						<div class="threebg">
+        							<ul class="left l">
+        								<li>
+        									<a href="#">手机</a>
+        								</li>
+        								<li>
+        									<a href="#">电脑</a>
+        								</li>
+        								<li>
+        									<a href="#">数码相机</a>
+        								</li>
+        								<li>
+        									<a href="#">日通电器</a>
+        								</li>
+        							</ul>
+        							<ul class="mid l">
+        								<li class="midfirst">推荐品牌</li>
+        								<li>
+        									<a href="#">华为</a>
+        								</li>
+        								<li>
+        									<a href="#">三星</a>
+        								</li>
+        								<li>
+        									<a href="#">小米</a>
+        								</li>
+        								<li>
+        									<a href="#">创维</a>
+        								</li>
+        								<li>
+        									<a href="#">格力</a>
+        								</li>
+        								<li>
+        									<a href="#">联想</a>
+        								</li>
+        							</ul>
+        							<ol class="right l"> 
+        								<li>热门活动</li>
+        								<li class="img"><img src="img/threeright.jpg" alt="活动"/></li>
+        							</ol>
+        						</div>
+        					</li>
+        					<li class="lefttwoli1">
+        						<a href="main/goodsList.html?type=2">保健养生</a>
+        						<div class="threebg">
+        							<ul class="left l">
+        								<li>
+        									<a href="#">保健用品</a>
+        								</li>
+        								<li>
+        									<a href="#">运动户外</a>
+        								</li>
+        							</ul>
+        							<ul class="mid l">
+        								<li class="midfirst">推荐品牌</li>
+        								<li>
+        									<a href="#">陶臣倍健</a>
+        								</li>
+        								<li>
+        									<a href="#">海斯曼</a>
+        								</li>
+        								<li>
+        									<a href="#">龚诺</a>
+        								</li>
+        							</ul>
+        							<ol class="right l"> 
+        								<li>热门活动</li>
+        								<li class="img"><img src="img/threeright.jpg" alt="活动"/></li>
+        							</ol>
+        						</div>
+        					</li>
+        					<li class="lefttwoli1">
+        						<a href="main/goodsList.html?type=2">服装配饰</a>
+        						<div class="threebg">
+        							<ul class="left l">
+        								<li>
+        									<a href="#">鞋帽配饰</a>
+        								</li>
+        								<li>
+        									<a href="#">箱包手表</a>
+        								</li>
+        								<li>
+        									<a href="#">服装</a>
+        								</li>
+        								<li>
+        									<a href="#">内衣</a>
+        								</li>
+        							</ul>
+        							<ul class="mid l">
+        								<li class="midfirst">推荐品牌</li>
+        								<li>
+        									<a href="#">森马</a>
+        								</li>
+        								<li>
+        									<a href="#">美邦</a>
+        								</li>
+        								<li>
+        									<a href="#">特步</a>
+        								</li>
+        								<li>
+        									<a href="#">阿依莲</a>
+        								</li>
+        								<li>
+        									<a href="#">李宁</a>
+        								</li>
+        								<li>
+        									<a href="#">耐克</a>
+        								</li>
+        							</ul>
+        							<ol class="right l"> 
+        								<li>热门活动</li>
+        								<li class="img"><img src="img/threeright.jpg" alt="活动"/></li>
+        							</ol>
+        						</div>
+        					</li>
+        					<li class="lefttwoli1">
+        						<a href="main/goodsList.html?type=2">美容美发</a>
+        						<div class="threebg">
+        							<ul class="left l">
+        								<li>
+        									<a href="#">美容化妆</a>
+        								</li>
+        								<li>
+        									<a href="#">功能护肤</a>
+        								</li>
+        								<li>
+        									<a href="#">基础护肤</a>
+        								</li>
+        							</ul>
+        							<ul class="mid l">
+        								<li class="midfirst">推荐品牌</li>
+        								<li>
+        									<a href="#">馥佩</a>
+        								</li>
+        								<li>
+        									<a href="#">百雀羚</a>
+        								</li>
+        								<li>
+        									<a href="#">水密码</a>
+        								</li>
+        								<li>
+        									<a href="#">欧莱雅</a>
+        								</li>
+        								<li>
+        									<a href="#">欧诗漫</a>
+        								</li>
+        								<li>
+        									<a href="#">丹姿</a>
+        								</li>
+        							</ul>
+        							<ol class="right l"> 
+        								<li>热门活动</li>
+        								<li class="img"><img src="img/threeright.jpg" alt="活动"/></li>
+        							</ol>
+        						</div>
+        					</li>
+        					<li class="lefttwoli1">
+        						<a href="main/goodsList.html?type=2">食品健康</a>
+        						<div class="threebg">
+        							<ul class="left l">
+        								<li>
+        									<a href="#">茶酒礼品</a>
+        								</li>
+        								<li>
+        									<a href="#">减肥食品</a>
+        								</li>
+        								<li>
+        									<a href="#">营养食品</a>
+        								</li>
+        							</ul>
+        							<ul class="mid l">
+        								<li class="midfirst">推荐品牌</li>
+        								<li>
+        									<a href="#">茅台</a>
+        								</li>
+        								<li>
+        									<a href="#">西凤酒</a>
+        								</li>
+        								<li>
+        									<a href="#">国窖1573</a>
+        								</li>
+        								<li>
+        									<a href="#">有机大豆</a>
+        								</li>
+        								<li>
+        									<a href="#">碧生源</a>
+        								</li>
+        								<li>
+        									<a href="#">碧螺春</a>
+        								</li>
+        							</ul>
+        							<ol class="right l"> 
+        								<li>热门活动</li>
+        								<li class="img"><img src="img/threeright.jpg" alt="活动"/></li>
+        							</ol>
+        						</div>
+        					</li>
+        					<li class="lefttwoli1">
+        						<a href="main/goodsList.html?type=2">珠宝收藏</a>
+        						<div class="threebg">
+        							<ul class="left l">
+        								<li>
+        									<a href="#">珠宝配饰</a>
+        								</li>
+        								<li>
+        									<a href="#">收藏品</a>
+        								</li>
+        							</ul>
+        							<ul class="mid l">
+        								<li class="midfirst">推荐品牌</li>
+        								<li>
+        									<a href="#">老凤祥</a>
+        								</li>
+        								<li>
+        									<a href="#">安妮</a>
+        								</li>
+        								<li>
+        									<a href="#">子母绿</a>
+        								</li>
+        								<li>
+        									<a href="#">鸡血石</a>
+        								</li>
+        							</ul>
+        							<ol class="right l"> 
+        								<li>热门活动</li>
+        								<li class="img"><img src="img/threeright.jpg" alt="活动"/></li>
+        							</ol>
+        						</div>
+        					</li>
+        					<li class="last">
+        				        <h4>热门品牌</h4>
+        				        <span>清华同方</span>
+        				        <span>TCL</span>
+        				        <span>美的</span>
+        				        <span>康佳</span>
+        				        <span>华为</span>
+        				        <span>魅族</span>
+        				        <span>格力</span>
+        				        <span>联想</span>
+        				        <span>小米</span>
+        				        <span>华硕</span>
+        				        <span>天士力</span>
+        				        <span>桂发祥</span>
+        			        </li>
+        				</ul>
+        			</li>	
+        		</ul>
+        	    <ul class="navright l"> <!--描述：主导航-->
+        		    <li>
+        			    <a href="#">首页</a>
+        		    </li>
+        		    <li>
+        			    <a class="tv" href="#">电视直播</a>
+        		    </li>
+        		    <li>
+        			    <a href="#">热卖榜</a>
+        		    </li>
+        		    <li>
+        			    <a href="#">易购慧</a>
+        		    </li>
+        		    <li>
+        			    <a href="#">手机购物</a>
+        		    </li>
+                    <li>
+        			    <a href="#">品牌店中店</a>
+        		    </li>
+        	    </ul>
+        		<a class="r" href="#"></a>
+        	</div>      	
+        </div>
+        <!--
+        	描述：轮播图
+        -->
+        <div id="banner">
+		    <div class="w">
+			    <div class="left bannerleft l">
+			        <img class="bannerimg" src="img/banner01.jpg" alt=""/>
+				    <img class="bannerimg" src="img/banner02.png" alt=""/>
+				    <img class="bannerimg" src="img/banner03.png" alt=""/>
+				    <img class="bannerimg" src="img/banner04.png" alt=""/>
+			        
+        	        <ul class="po">
+			            <li class="bannerli" value="pic1" class="point1">1</li>
+			        	<li class="bannerli" value="pic2" class="point1">2</li>
+			        	<li class="bannerli" value="pic3" class="point1">3</li>
+			        	<li class="bannerli" value="pic4" class="point1">4</li>
+			        </ul>
+				</div>	
+                <div class="r">
+			        <img src="img/bannerright.jpg"/>
+			    </div>
+			    <div class="r bannerbottom">
+                    
+			    </div>
+			</div>
+        </div>
+        <!--
+        	描述：主页爆款商品
+        -->
+		<div id="news">
+		    <div class="w">  
+		       <div class="jrth 1">
+		    	    <h3>今日特惠</h3>
+		    	    <span class="jrthbtnl">&lt;</span>	
+		    	    <span class="jrthbtnr">&gt;</span>
+		    		<div class="jrthbanner jrthbanner0">
+		    		    <img src="img/a01.png" alt=""/>
+		    			<p class="p1">开诚印花冰丝席清凉一夏套组</p>
+		    	        <p class="p2">易购价：￥199.00</p>
+		    	    </div>
+		    	    <div class="jrthbanner jrthbanner1">
+		    		    <img src="img/a02.png" alt=""/>
+		    			<p class="p1">多功能太阳镜</p>
+		    	        <p class="p2">易购价：￥299.00</p>
+		    	    </div>		
+		    	</div>
+		    	<div class="newsmid 1">
+		    	    <h3>TV热播</h3>
+		    		<div class="boxnewsmidbanner">
+		    		    <div class="newsmidbanner">
+		    			    <div class="midl l">
+		    				    <span class="com">
+		    					    <img src="img/311464-1.jpg" alt="">
+		    						<p>歌菲多功能冲钻组合</p>
+		    						<p class="bgred">立减20元</p>
+		    						<p>￥299.00</p>
+		    					</span>
+		    					<span class="com">
+		    					    <img src="img/311778-1.jpg" alt="" />
+		    					    <p>紫袍亚麻籽油组</p>
+		    					    <p class="bgred">立减20元</p>
+		    					    <p>￥418.00</p>
+		    					</span>
+		    				</div>
+		    				<div class="midm l">
+		    					<img src="img/311690-01.jpg" alt="">
+		    					<p>祥铭阁客厅大全套</p>
+		    					<p class="bgred">立减100元</p>
+		    					<p>￥38,000.00</p>
+		    				</div>
+		    				<div class="midl l">
+		    					<span class="com comr">
+		    						<img src="img/311859-1.jpg" alt="" />
+		    						<p>Skinlady槿兰膏修护经典组</p>
+		    						<p class="bgred">立减20元</p>
+		    						<p>￥299.00</p>
+		    					</span>
+		    					<span class="com comr">
+		    						<img src="img/312339-02.jpg" alt="" />
+		    						<p>除油泡泡加赠组</p>
+		    						<p class="bgred">立减20元</p>
+		    						<p>￥268.00</p>
+		    					</span>
+		    				</div>
+		    			</div>
+
+		    			<div class="newsmidbanner">
+		    				<div class="midl l">
+		    					<span class="com">
+		    				    	<img src="img/312277-1.jpg" alt="" />
+		    				    	<p>荣事达除氯控温电热水壶家庭组</p>
+		    				    	<p class="bgred">立减20元</p>
+		    				    	<p>￥299.00</p>
+		    				    </span>
+		    					<span class="com">
+		    				    	<img src="img/310618-1.jpg" alt="" />
+		    				    	<p>薇依粉色石头柔棉提花夏被1.8M</p>
+		    				    	<p class="bgred">立减10元</p>
+		    				    	<p>￥139.00</p>
+		    				    </span>
+		    				</div>
+		    				<div class="midm l">
+		    					<img src="img/311196-1.jpg" alt="" />
+		    					<p>飞盾LED指纹电子全钢保管箱</p>
+		    					<p class="bgred">立减20元</p>
+		    					<p>￥688.00</p>
+		    				</div>
+		    				<div class="midl l">
+		    					<span class="com comr">
+		    				    	<img src="img/311332-1.jpg" alt="" />
+		    				    	<p>童星多功能可升降儿童学习桌</p>
+		    				    	<p class="bgred">立减50元</p>
+		    				    	<p>￥899.00</p>
+		    				    </span>
+		    					<span class="com comr">
+		    				    	<img src="img/com_6.jpg" alt="" />
+		    				    	<p>现代竹纤维毛巾组合</p>
+		    				    	<p class="bgred">立减5元</p>
+		    				    	<p>￥99.00</p>
+		    				    </span>
+		    				</div>
+		    			</div>
+		    			<div class="newsmidbanner">
+		    				<div class="midl l">
+		    					<span class="com">
+		    						<img src="img/310699-10-1.jpg" alt="" />
+		    						<p>薇依精品提花冰丝席3+3+4</p>
+		    						<p class="bgred">立减20元</p>
+		    						<p>￥299.00</p>
+		    					</span>
+		    					<span class="com">
+		    						<img src="img/312122-01.jpg" alt="" />
+		    						<p>薇依悠闲时光全棉四件套 </p>
+		    						<p class="bgred">立减10元</p>
+		    						<p>￥279</p>
+		    					</span>
+		    				</div>
+		    				<div class="midm l">
+		    					<img src="img/310760-1.jpg" alt="" />
+		    					<p>德国爱乐仕魔术快锅营养组</p>
+		    					<p class="bgred">立减20元</p>
+		    					<p>￥999</p>
+		    				</div>
+		    				<div class="midl l">
+		    					<span class="com">
+		    						<img src="img/310822-1.jpg" alt="" />
+		    						<p>可米熊多层条形鞋架-</p>
+		    						<p class="bgred">立减20元</p>
+		    						<p>￥99.00</p>
+		    					</span>
+		    					<span class="com">
+		    						<img src="img/310910-1.jpg" alt="" />
+		    						<p>达米尼智能变频对开门冰箱 </p>
+		    						<p class="bgred">立减50元</p>
+		    						<p>￥3999.00</p>
+		    					</span>
+		    				</div>
+		    			</div>				
+		    		</div>
+		    	</div>
+		    	<div class="fstt l">
+		    	    <h3>易购头条</h3>
+            
+		    		<a href="#">[公告] 关于G20峰会期间杭州地区暂不发货的说明 </a>
+            
+		    		<a href="#">[公告] 海南浪漫双人游 </a>
+            
+		    		<a href="#">[快讯] 从跨界到破界，风尚购物获首届中国电视购物行业年会“年度卓越奖” </a>
+            
+		    		<a href="#">[喜讯] 风尚购物成功挂牌新三板</a>
+            
+		    		<a href="#">[帮助] 如何使用礼金券编码 </a>
+            
+		    		<a href="#">[促销]品牌店中店商品推荐</a>
+            
+		    		<a href="#">[公告] 注册或电视会员升级即获50元 </a>
+            
+		    		<a href="#">[公告] 网上订购直播商品立减20元 </a>
+            
+		    		<a href="#">[帮助] 风尚购物之购物说明 </a>
+            
+		    		<a href="#">[帮助] 配送地区及运费说明 </a>
+            
+		    		<a href="#">[帮助] 支付方式说明</a>
+            
+		    		<a href="#">[帮助] 售后服务政策 </a>
+            
+		    		<a href="#">[帮助]积分说明</a>
+		    	</div>
+		    </div>
+	    </div>
+        <div id="guanggao">
+        	<div class="w">
+        		<img src="img/1.jpg" alt="" />
+        		<img src="img/2.jpg" alt="" />
+        		<img src="img/3.jpg" alt="" />
+        		<img src="img/4.jpg" alt="" />
+        		<img src="img/5.jpg" alt="" />
+            </div>
+        </div>  
+        <!--
+        	描述：商品列表
+        -->
+        <div id="content1">
+			<div class="w">
+				<h3 class="one">1F.家居生活<span><a href="">更多 ></a></span></h3>
+				<div class="conleft l">
+					<img src="img/310021.jpg" alt="" />
+					<span class="conrightbottom1">
+						易购价格:￥699.00
+					</span>
+				</div>
+				<div class="conright l">
+					<ul>
+						<li class="one">热销商品推荐</li>
+						<li>
+							<a class="first" href="#">家居用品</a>
+						</li>
+						<li>
+							<a href="#">厨浴电器</a>
+						</li>
+						<li>
+							<a href="#">卧室床品</a>
+						</li>
+						<li>
+							<a href="#">汽车用品</a>
+						</li>
+					</ul>
+					<div class="newsmidbanner">
+						<div class="midl l">
+							<span class="com">
+		    					<img src="img/311464-1.jpg" alt="">
+		    					<p>歌菲多功能冲钻组合</p>
+		    					<p class="bgred">立减20元</p>
+		    					<p>￥299.00</p>
+		    				</span>
+							<span class="com">
+								<img src="img/312118-01.jpg" alt="" />
+								<p>薇依思韵全棉四件套 </p>
+								<p class="bgred">立减20元</p>
+								<p>￥149.00</p>
+							</span>
+						</div>
+						<div class="midm l">
+							<img src="img/312289-01.jpg" alt="" />
+							<p>薇依缤纷花语超柔磨毛夏被-小 </p>
+							<p class="bgred">立减20元</p>
+							￥60.00
+						</div>
+						<div class="midl l">
+							<span class="com">
+								<img src="img/311141-1.jpg" alt="" />
+								<p>德国AODIS恒温热水器浴室组 </p>
+								<p class="bgred">立减50元</p>
+								<p>￥1499.00</p>
+							</span>
+							<span class="com">
+								<img src="img/311021-1.jpg" alt="" />
+								<p>韩伊智能语音破壁养生料理机 </p>
+								<p class="bgred">立减20元</p>
+								<p>￥599.00</p>
+							</span>
+						</div>
+						<div class="midm l">
+							<img src="img/311852-1.jpg" alt="" />
+							<p>诺肯淋浴花洒加赠组 </p>
+							<p class="bgred">立减20元</p>
+							￥498.00
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+		
+		<div id="content1" class="content2">
+			<div class="w">
+				<h3 class="two">2F.数码家电<span><a href="">更多 ></a></span></h3>
+				<div class="conleft l">
+					<img src="img/309286.jpg" alt="" />
+					<span class="conrightbottom2">
+						易购价格:￥999
+					</span>
+				</div>
+				<div class="conright l">
+					<ul>
+						<li class="two">热销商品推荐</li>
+						<li>
+							<a class="first" href="#">数码影音</a>
+						</li>
+						<li>
+							<a href="#">日用电器</a>
+						</li>
+						<li>
+							<a href="#">手机</a>
+						</li>
+						<li>
+							<a href="#">电脑及周边</a>
+						</li>
+					</ul>
+					<div class="newsmidbanner">
+						<div class="midl l">
+							<span class="com">
+								<img src="img/312056-1.jpg" alt="" />
+								<p>东芝43英寸安卓智能电视</p>
+								<p class="bgred">立减100元</p>
+								<p>￥2599.00</p>
+							</span>
+							<span class="com">
+								<img src="img/312063-1.jpg" alt="" />
+								<p>东芝65英寸曲面4K智能电视</p>
+								<p class="bgred">立减200元</p>
+								<p>￥8999.00</p>
+							</span>
+						</div>
+						<div class="midm l">
+							<img src="img/312261-01.jpg" alt="" />
+							<p>韩电558升智能风冷无霜冰箱 </p>
+							<p class="bgred">立减100元</p>
+							￥3699.00
+						</div>
+						<div class="midl l">
+							<span class="com">
+								<img src="img/8.jpg" alt="" />
+								<p>达米尼8.5KG大容量滚筒 </p>
+								<p class="bgred">立减50元</p>
+								<p>￥1999.00</p>
+							</span>
+							<span class="com">
+								<img src="img/311574-1.jpg" alt="" />
+								<p>美国滨特尔除铅大流量直饮净水  </p>
+								<p class="bgred">立减50元</p>
+								<p>￥1399.00</p>
+							</span>
+						</div>
+						<div class="midm l">
+							<img src="img/312057-1.jpg" alt="" />
+							<p>莱克碧云泉净水机组 </p>
+							<p class="bgred">立减20元</p>
+							￥2999.00
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+		
+		<div id="content1" class="content3">
+			<div class="w">
+				<h3 class="three">3F.保健养生<span><a href="">更多 ></a></span></h3>
+				<div class="conleft l">
+					<img src="img/312149-1.jpg" alt="" />
+					<span class="conrightbottom3">
+						易购价格:￥299
+					</span>
+				</div>
+				<div class="conright l">
+					<ul>
+						<li class="three">热销商品推荐</li>
+						<li>
+							<a class="first" href="#">绿色食品</a>
+						</li>
+        					<li>
+        						<a href="#">保健用品</a>
+        					</li>
+        					<li>
+        						<a href="#">运动户外</a>
+        					</li>
+					</ul>
+					<div class="newsmidbanner">
+						<div class="midl l">
+							<span class="com">
+								<img src="img/311162-1.jpg" alt="" />
+								<p>汤臣倍健牛初乳加钙 </p>
+								<p class="bgred">立减20元</p>
+								<p>￥129.00</p>
+							</span>
+							<span class="com">
+								<img src="img/311168-1.jpg" alt="" />
+								<p>汤臣倍健左旋肉碱 </p>
+								<p class="bgred">立减20元</p>
+								<p>￥249.00</p>
+							</span>
+						</div>
+						<div class="midm l">
+							<img src="img/311926-1.gif" alt="" />
+							<p>泰国原装进口天然乳胶美容枕 </p>
+							<p class="bgred">立减20元</p>
+							￥368.00
+						</div>
+						<div class="midl l">
+							<span class="com">
+								<img src="img/311201-1.jpg" alt="" />
+								<p>宏医敏素益生菌粉</p>
+								<p class="bgred">立减20元</p>
+								<p>￥499.00</p>
+							</span>
+							<span class="com">
+								<img src="img/311973-1.jpg" alt="" />
+								<p>智能家用健康艾灸理疗仪 </p>
+								<p class="bgred">立减20元</p>
+								<p>￥2980.00</p>
+							</span>
+						</div>
+						<div class="midm l">
+							<img src="img/312071-1.jpg" alt="" />
+							<p>恒顺浓缩醋胶囊健康养生组</p>
+							<p class="bgred">立减20元</p>
+							￥598.00
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="content1" class="content4">
+			<div class="w">
+				<h3 class="four">4F.服装配饰<span><a href="">更多 ></a></span></h3>
+				<div class="conleft l">
+					<img src="img/鞋帽配饰309918.jpg" alt="" />
+					<span class="conrightbottom4">
+						易购价格:￥239
+					</span>
+				</div>
+				<div class="conright l">
+					<ul>
+						<li class="four">热销商品推荐</li>
+						<li>
+							<a class="first" href="#">鞋帽配饰</a>
+						</li>
+        				<li>
+        					<a href="#">箱包手表</a>
+        				</li>
+        				<li>
+        					<a href="#">服装</a>
+        				</li>
+        				<li>
+        					<a href="#">内衣</a>
+        				</li>
+					</ul>
+					<div class="newsmidbanner">
+						<div class="midl l">
+							<span class="com">
+								<img src="img/311108-1.jpg" alt="" />
+								<p>D.KANLA户外休闲鞋组</p>
+								<p class="bgred">立减20元</p>
+								<p>￥299.00</p>
+							</span>
+							<span class="com">
+								<img src="img/311874-1.jpg" alt="" />
+								<p>Kaiser软底休闲豆豆女鞋套组 </p>
+								<p class="bgred">立减20元</p>
+								<p>￥399.00</p>
+							</span>
+						</div>
+						<div class="midm l">
+							<img src="img/308055-1.jpg" alt="" />
+							<p>3POLO MARK爵士双飞轮机械腕表 </p>
+							<p class="bgred">立减50元</p>
+							￥4680.00
+						</div>
+						<div class="midl l">
+							<span class="com">
+								<img src="img/312282-01.jpg" alt="" />
+								<p>奇安达超轻时尚运动男鞋组 </p>
+								<p class="bgred">立减20元</p>
+								<p>￥299.00</p>
+							</span>
+							<span class="com">
+								<img src="img/310437-1.jpg" alt="" />
+								<p>芭比韩版夏装冰丝七分裤4件 </p>
+								<p class="bgred">立减20元</p>
+								<p>￥99.00</p>
+							</span>
+						</div>
+						<div class="midm l">
+							<img src="img/309934-1.jpg" alt="" />
+							<p>愷撒名奴复古雅致真丝套装 </p>
+							<p class="bgred">立减20元</p>
+							￥299.00
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+		
+		<div id="content1" class="content5">
+			<div class="w">
+				<h3 class="five">5F.美容美发<span><a href="">更多 ></a></span></h3>
+				<div class="conleft l">
+					<img src="img/美容化妆广告位大.jpg" alt="" />
+					<span class="conrightbottom5">
+						易购价格:￥199
+					</span>
+				</div>
+				<div class="conright l">
+					<ul>
+						<li class="five">热销商品推荐</li>
+						<li>
+							<a class="first" href="#">美容化妆</a>
+						</li>
+        				<li>
+        					<a href="#">功能护肤</a>
+        				</li>
+        				<li>
+        					<a href="#">基础护肤</a>
+        				</li>
+					</ul>
+					<div class="newsmidbanner">
+						<div class="midl l">
+							<span class="com">
+								<img src="img/310363-1.jpg" alt="" />
+								<p>COLOR FOR u双色美唇膏魅力组 </p>
+								<p class="bgred">立减20元</p>
+								<p>￥268.00</p>
+							</span>
+							<span class="com">
+								<img src="img/303286-1.jpg" alt="" />
+								<p>尚朵脱毛组-何洁代言 </p>
+								<p class="bgred">立减10元</p>
+								<p>￥199.00</p>
+							</span>
+						</div>
+						<div class="midm l">
+							<img src="img/310190-1.jpg" alt="" />
+							<p>蔻缇靓白淡斑全明星回馈组 </p>
+							<p class="bgred">立减20元</p>
+							￥299.00
+						</div>
+						<div class="midl l">
+							<span class="com">
+								<img src="img/312182-1.jpg" alt="" />
+								<p>可贝尔水光原液组 </p>
+								<p class="bgred">立减20元</p>
+								<p>￥199.00</p>
+							</span>
+							<span class="com">
+								<img src="img/309432-1.jpg" alt="" />
+								<p>槿兰尊享升级双星组 </p>
+								<p class="bgred">立减20元</p>
+								<p>￥299.00</p>
+							</span>
+						</div>
+						<div class="midm l">
+							<img src="img/312185-1.jpg" alt="" />
+							<p>耶顿香爱懒人紧致腹膜组</p>
+							<p class="bgred">立减10元</p>
+							￥299.00
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<div id="content1" class="content6">
+			<div class="w">
+				<h3 class="six">6F.食品健康<span><a href="">更多 ></a></span></h3>
+				<div class="conleft l">
+					<img src="img/茶酒礼品311035.jpg" alt="" />
+					<span class="conrightbottom6">
+						易购价格:￥1888.00
+					</span>
+				</div>
+				<div class="conright l">
+					<ul>
+						<li class="six">热销商品推荐</li>
+						<li>
+							<a class="first" href="#">茶酒礼品</a>
+						</li>
+        				<li>
+        					<a href="#">减肥食品</a>
+        				</li>
+        				<li>
+        					<a href="#">营养食品</a>
+        				</li>
+					</ul>
+					<div class="newsmidbanner">
+						<div class="midl l">
+							<span class="com">
+								<img src="img/308917-1.jpg" alt="" />
+								<p>五粮液天赋鸿运典藏 </p>
+								<p class="bgred">立减50元</p>
+								<p>￥999.00</p>
+							</span>
+							<span class="com">
+								<img src="img/308920-1.jpg" alt="" />
+								<p>五粮液天赋鸿运帝王黄 </p>
+								<p class="bgred">立减50元</p>
+								<p>￥999.00</p>
+							</span>
+						</div>
+						<div class="midm l">
+							<img src="img/312444-1.jpg" alt="" />
+							<p>拉斐干红品鉴加赠组</p>
+							<p class="bgred">立减50元</p>
+							￥899.00
+						</div>
+						<div class="midl l">
+							<span class="com">
+								<img src="img/311791-1.jpg" alt="" />
+								<p>丹麦进口纽诺迪科番茄压片糖果 </p>
+								<p class="bgred">立减20元</p>
+								<p>￥299.00</p>
+							</span>
+							<span class="com">
+								<img src="img/311970-1.jpg" alt="" />
+								<p>长白山野山参风尚组</p>
+								<p class="bgred">立减50元</p>
+								<p>￥1599.00</p>
+							</span>
+						</div>
+						<div class="midm l">
+							<img src="img/311761-1.jpg" alt="" />
+							<p>长白山臻品山参组</p>
+							<p class="bgred">立减20元</p>
+							￥999.00
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="content1" class="content7">
+			<div class="w">
+				<h3 class="seven">7F.珠宝收藏<span><a href="">更多 ></a></span></h3>
+				<div class="conleft l">
+					<img src="img/珠宝广告位大.jpg" alt="" />
+					<span class="conrightbottom7">
+						易购价格:￥99.00
+					</span>
+				</div>
+				<div class="conright l">
+					<ul>
+						<li class="seven">热销商品推荐</li>
+						<li>
+							<a class="first" href="#">珠宝配饰</a>
+						</li>
+        				<li>
+        					<a href="#">收藏品</a>
+        				</li>
+					</ul>
+					<div class="newsmidbanner">
+						<div class="midl l">
+							<span class="com">
+								<img src="img/312267-1.jpg" alt="" />
+								<p>J.CN三生三世和田玉转运珠</p>
+								<p class="bgred">立减10元</p>
+								<p>￥199.00</p>
+							</span>
+							<span class="com">
+								<img src="img/309605-1.jpg" alt="" />
+								<p>安妮“锦绣繁华”珍珠套组 </p>
+								<p class="bgred">立减10元</p>
+								<p>￥159.00</p>
+							</span>
+						</div>
+						<div class="midm l">
+							<img src="img/310450-1.jpg" alt="" />
+							<p>顺然福禄双全天然翡翠手串 </p>
+							<p class="bgred">立减5元</p>
+							￥159.00
+						</div>
+						<div class="midl l">
+							<span class="com">
+								<img src="img/308411-1.jpg" alt="" />
+								<p>悲鸿大师紫砂壶 </p>
+								<p class="bgred">立减500元</p>
+								<p>￥19880.00</p>
+							</span>
+							<span class="com">
+								<img src="img/311711-1.jpg" alt="" />
+								<p>招财纳福米黄玉貔貅摆件套组 </p>
+								<p class="bgred">立减20元</p>
+								<p>￥999.00</p>
+							</span>
+						</div>
+						<div class="midm l">
+							<img src="img/311578-1.jpg" alt="" />
+							<p>张松茂春夏秋冬山水四条屏 </p>
+							<p class="bgred">立减500元</p>
+							￥49,800.00
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <!--描述：页尾咨询框 -->
+		<div id="footer">
+			<div class="w">
+				<span class="left">免费订阅优惠信息</span>
+				<input class="txt" type="text" placeholder="请输入您的邮箱" />
+				<input class="btn" type="button" value="确认" />
+				<span class="right">我们会将最新的促销优惠信息发送给您。</span>
+			</div>
+		</div>
+		<!--
+        	描述：页脚
+        -->
+	    <div id="bottom">
+			<div class="w">
+				<div class="bot1">
+					<p><b>帮助中心</b></p><br/>
+					<p>购物流程</p>
+					<p>使用订单状态说明</p>
+				</div>
+				<div class="bot1">
+					<p><b>配送方式</b></p><br/>
+					<p>免费配送地区</p>
+					<p>配送范围</p>
+				</div>
+				<div class="bot1">
+					<p><b>支付方式</b></p><br/>
+					<p>货到付款</p>
+					<p>银联支付</p>
+					<p>支付宝</p>
+					<p>微信支付</p>
+				</div>
+				<div class="bot1">
+					<p><b>客户服务</b></p><br/>
+					<p>售后及退换货</p>
+					<p>在线客服</p>
+				</div>
+				<div class="bot1">
+					<p><b>会员中心</b></p><br/>
+					<p>资料修改</p>
+					<p>找回密码</p>
+					<p>会员等级</p>
+					<p>会员权益</p>
+				</div>
+				<div class="bot1">
+					<p><b>招商中心</b></p><br/>
+					<p>关于我们</p>
+					<p>合作流程</p>
+					<p>联系我们</p>
+					<p>供应商系统</p>
+				</div>
+				<div class="bot1">
+					<p><b>关注我们</b></p><br/>
+					<p>招贤纳士</p>				
+				</div>
+				<div class="bot1">
+					<span class="dgrx">订购热线</span>
+					<span class="dgrxtel">4001-677-077</span>
+				</div>					
+			    <br/><br/> 
+			</div> 
+			<br/><br/>
+			    <span><a href=""> 触屏版</a> | <a href="">电脑版</a></span><br />
+			I   CP经营许可证：赣ICP备15000001号<br />
+			    24小时订购和服务热线：4001-677-077<br />
+			    Copyright 2008-2014，www.fstvgo.com 易购网 版权所有<br />
+			          本网站用字经北京北大方正电子有限公司授权许可 <br /><br /><br />
+		</div>
+		<script type="text/javascript">
+		</script>
+		<script src="js/startMove.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/ajax.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/publick.js" type="text/javascript" charset="utf-8"></script>        
+        <script src="js/indexjs.js" type="text/javascript" charset="utf-8"></script>       
+        <script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>  
+	</body>
+</html>

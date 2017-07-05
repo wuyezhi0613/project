@@ -1,0 +1,143 @@
+body,h1,h2,h3,h4,h5,h6,a,p,img,li,ol,dl,ul,dt,dd,input,span{
+    margin: 0; padding: 0;
+}
+body{font-size:12px;font-family: Microsoft Yahei;}
+ul,ol{list-style: none;}
+img{border: 0;}
+a{text-decoration: none; color: black;outline: none;}
+a:hover{text-decoration: underline; }
+
+.l{float: left;}
+.r{float: right;}
+.w{margin: 0 auto; width: 900px;}
+/*------------------------------------------------*/
+
+#top .w{
+    padding-top:30px;
+    height: 100px;
+}
+#top .w a{
+    width: 53px;
+    height: 100px;
+    display: block;
+    float: left;
+}
+#login{
+    display: block;
+    position: relative;
+    height: 468px;
+    border-bottom: 1px solid black;
+}
+#login .w{
+    height: 468px;
+    border-bottom: 1px solid black;
+}
+#login .w .left img{
+    margin-top: 10px;
+}
+#login .w .right{
+    margin-top: 25px;
+    width: 400px;
+}
+#login .w .right input.tel,input.pwd{
+    line-height: 33px;
+    width: 277px;
+    height: 33px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+#login .w .right input.tel{
+    background: url(../img/username.jpg) no-repeat 280px center;
+    padding-right: 30px;
+}
+#login .w .right input.pwd{
+    background: url(../img/pwd.jpg) no-repeat 280px center;
+    padding-right: 30px;
+    margin-bottom: 50px;
+}
+#login .w .right input.yzmbtn{
+    line-height: 33px;
+    margin-left: 130px;
+    border: 1px sol #AAAAAA;
+    border-radius: 5px;
+    height: 30px;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+#login .w .right a{
+    color: #999999;
+}
+#login .w .right .cb{
+    float: left;
+}
+#login .w .right .zc{
+    float: right;
+    margin-right: 100px;
+}
+#login .w .right .loginbtn{
+    cursor: pointer;
+    width: 307px;
+    height: 33px;
+    background-color: #D32402;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+#login .w .right .compare{
+    height: 30px;
+    line-height: 30px;
+}
+#login .w .right .compare img{
+    cursor: pointer;
+}
+.usernameerror1,.usernameerror2{
+    color: red;
+    display: none;
+}
+#bottom{
+    margin-top: 10px;
+    height: 178px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    color: #666;
+}
+#bottom .w1{
+    height: 178px;
+}
+#bottom .w .bot1 p{
+    margin-top: 10px;
+}
+#bottom .w1 div{
+    float: left;
+    width: 150px;
+    display: inline-block;
+    
+}
+#bottom .w1 div .dgrx{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#bottom .w1 div .dgrxtel{
+    display: block;
+    color: red;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#bottom span a{
+    font-size: 18px;
+}
+#bottom span a:hover{
+    color: red;
+}

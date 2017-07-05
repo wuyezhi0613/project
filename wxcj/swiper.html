@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/swiper-3.4.1.min.css">
+		<link rel="stylesheet" href="css/animate.min.css" />	
+		<script type="text/javascript"src="js/swiper-3.4.1.min.js"></script>
+		<script type="text/javascript" src="js/swiper.animate1.0.2.min.js" ></script>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<style type="text/css">	
+			body,html{
+				height: 100%;
+			}	
+			*{
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}	
+			.swiper-container {
+                height: 100%;
+			}
+			.img{
+				width: 100%;
+				height: 100%;
+			}
+			.text{
+				position: absolute;
+				z-index: 1000;
+				font-size: 100%;
+			}
+			.twofat{
+				position:absolute;
+				z-index:3000;
+				width: 35%;
+				height: 35%;
+				
+			}
+			#qq{
+				height: 40px;
+				width: 40px;
+				border-radius: 50%;
+				background: url(img/music.jpg);
+				background-size:cover ;
+				position: absolute;
+				top:25px;
+				right: 35px;
+				z-index: 2000;
+				animation: zhuan 2s infinite linear;
+			}
+			@keyframes zhuan{
+				from{transform: rotateZ(0deg);}
+				to{transform: rotateZ(360deg);}
+			}
+			#up{
+				height: 25px;
+				width: 50px;
+				position: absolute;
+				bottom:30px;
+				left: 50%;
+				z-index: 2000;
+				transform: translateX(-50%);
+				animation: up 1s infinite linear;
+			}
+			@keyframes up{
+				0%{bottom:0 ; opacity:0;}
+				50%{bottom:25px ; opacity:1;}
+				100%{bottom:45px ; opacity:0;}
+			}
+		</style>
+	</head>
+	<body>
+        <audio src="知足-五月天.mp3" autoplay id="ado"></audio>
+		<div id="qq"></div>
+		<img src="img/up.png" id="up"/>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+			    <div class="swiper-slide">
+				    <img src="img/a1.jpg" alt="" class="img"/>
+				    <p class="text ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.5s" style="left:15%;top:12%;color: white;font-size: 20px;font-family:'arial narrow';">如果我们不曾相遇在这里</p>
+				    <img  src="img/b3.jpg"  class="twofat ani"  swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="2s" style=" left:0;top:0;transform:translate(40%,50%);" />
+				    <img  src="img/b1.jpg"  class="twofat ani"  swiper-animate-effect="bounceInRight" swiper-animate-duration="3s" swiper-animate-delay="2s" style=" left:55%;top:20%;transform:translate(100%,30%);" />
+				    <p class="text ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="4s" style="right:35%;top:55%;color: white;font-size: 20px;font-family:'arial narrow';">我们又会在哪里</p>
+				    <img  src="img/b2.jpg"  class="twofat ani"  swiper-animate-effect="zoomInUp" swiper-animate-duration="3s" swiper-animate-delay="2s" style=" left:5%;bottom:40%;transform:translate(100%,100%);" />
+			    </div>
+			    
+			    <div class="swiper-slide">
+			        <img src="img/a2.jpg" alt="" class="img"/>
+			        <p class="text ani" swiper-animate-effect="rotateIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s" style="left:15%;top:12%;color:deepskyblue;font-size: 24px;font-family:'微软雅黑';">记得那一天，</p>
+			        <p class="text ani" swiper-animate-effect="flipInY" swiper-animate-duration="3s" swiper-animate-delay="1s" style="right:10%;top:20%;color:deepskyblue;font-size: 24px;font-family:'微软雅黑';">阳光正好</p>
+			        <img  src="img/b5.jpg"  class="twofat ani"  swiper-animate-effect="fadeInUp" swiper-animate-duration="3s" swiper-animate-delay="1s" style=" left:30%;top:30%;transform:translate(50%,50%);" />
+			        <p class="text ani" swiper-animate-effect="flipInX" swiper-animate-duration="4s" swiper-animate-delay="1s" style="right:10%;bottom:20%;color:white;font-size: 16px;font-family:'微软雅黑';">&nbsp;&nbsp;&nbsp;不一定要成为多么伟大有志气的人<br/>&nbsp;&nbsp;而是知道自己讨厌怎样的人<br/>&nbsp;而避免成为那样的人</p>
+			    </div>
+			    
+			    <div class="swiper-slide">
+			        <img src="img/a3.jpg" alt="" class="img"/>
+			        <img  src="img/b6.jpg"  class="twofat ani"  swiper-animate-effect=" tada" swiper-animate-duration="1s" swiper-animate-delay="0.5s" style=" left:20%;top:10%;transform:translate(50%,50%);" />
+			        <p class="text ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="1s" style="right:5%;top:60%;color:white;font-size: 18px;font-family:'微软雅黑';">夏天的晚风是轻柔的<br/>&nbsp;黑夜是寂寞的<br/>&nbsp;&nbsp;那么你是努力的吗？<br/>&nbsp;&nbsp;&nbsp;你那边有没有很热，或是下雨？</p>
+			    </div>
+			    
+			    <div class="swiper-slide">
+			        <img src="img/a4.jpg" alt="" class="img"/>
+			        <p class="text ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="1s" style="left:5%;top:10%;color:greenyellow;font-size: 18px;font-family:'微软雅黑';">如果要告别</p>
+			        <p class="text ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="2.5s" swiper-animate-delay="1s" style="right:5%;top:15%;color:burlywood;font-size: 20px;font-family:'微软雅黑';">如果今夜就要和一切告别</p>
+			        <img  src="img/b8.jpg"  class="twofat ani"  swiper-animate-effect="fadeInLeft" swiper-animate-duration="3.5s" swiper-animate-delay="1s" style=" left:10%;top:25%;transform:translate(50%,50%);" />
+			        <p class="text ani" swiper-animate-effect="zoomIn" swiper-animate-duration="4s" swiper-animate-delay="1s" style="left:55%;top:40%;color:dodgerblue;font-size: 16px;font-family:'微软雅黑';">每个人都有一些伟大的梦想，<br/>&nbsp;当然你也是，<br/>&nbsp;&nbsp;勇敢做自己</p>
+			        <img  src="img/b9.jpg"  class="twofat ani"  swiper-animate-effect="rotateInUpRight" swiper-animate-duration="5s" swiper-animate-delay="1s" style=" right:10%;top:60%;" />
+			        <p class="text ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="5s" swiper-animate-delay="1s" style="left:10%;bottom:20%;color:dimgrey;font-size: 22px;font-family:'微软雅黑';">有一点小伤感<br/>/(ㄒoㄒ)/~~</p>
+			    </div>
+			    
+			    <div class="swiper-slide">
+			        <img src="img/a5.jpg" alt="" class="img"/>
+			        <img src="img/b10.jpg"  class="twofat ani"  swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1s" style=" left:10%;top:15%;" />
+			        <img src="img/b11.jpg"  class="twofat ani"  swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="1s" style=" right:10%;top:20%;" />
+			        <p class="text ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="3s" swiper-animate-delay="1s" style="left:10%;bottom:20%;color:white;font-size: 16px;font-family:'微软雅黑';">无论你走到哪里，请记得<br/>&nbsp;总有一天，我会去有你的城市<br/>&nbsp;&nbsp;所有好的坏的都随风去<br/>&nbsp;&nbsp;&nbsp;记得请努力一点</p>
+			    </div>
+			    <div class="swiper-slide">
+			        <img src="img/a6.jpg" alt="" class="img"/>
+			        <img src="img/b14.gif"  class="twofat ani"  swiper-animate-effect="flash" swiper-animate-duration="1s" swiper-animate-delay="1s" style=" left:5%;top:15%; width: 90%;height: 20%;" />
+			        <p class="text ani" swiper-animate-effect="fadeInUpBig" swiper-animate-duration="2s" swiper-animate-delay="0.5s" style="text-align:center;left:5%;top:40%;color:white;font-size: 16px;font-family:'微软雅黑';">我始终相信在自己没有了抱怨之后<br/>你会发现你自身的许多缺点<br/>我觉得那个时候的开始，也就是你接近梦想的时候了<br/>《有梦想,不抱怨》</p>
+			    	<img src="img/b13.jpg"  class="twofat ani"  swiper-animate-effect="zoomInUp" swiper-animate-duration="3s" swiper-animate-delay="1s" style=" left:32%;bottom:6%;" />
+			    </div>
+			</div>
+		</div>
+		<script type="text/javascript">
+            var mySwiper = new Swiper('.swiper-container', {
+                direction: 'vertical',
+                loop: true,
+				 
+				onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+			    swiperAnimateCache(swiper); //隐藏动画元素 
+			    swiperAnimate(swiper); //初始化完成开始动画
+			    }, 
+			    onSlideChangeEnd: function(swiper){ 
+			    swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+			    } 
+	            })
+            var onoff = true
+				document.getElementById("qq").onclick = function(){
+					if(onoff){
+						document.getElementById("qq").style.animationPlayState = 'paused'
+						document.getElementById("ado").pause()				
+					}else{
+						document.getElementById("ado").play()	
+						document.getElementById("qq").style.animationPlayState = 'running'
+					}
+					onoff = !onoff
+				}
+        </script>
+	</body>
+</html>

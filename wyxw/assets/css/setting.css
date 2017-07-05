@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: .14rem; }
+
+b, h1, h2, h3, h4 {
+  font-weight: 100; }
+
+i, p {
+  font-style: normal; }
+
+html {
+  font-size: 26.67vw; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+#setting-header {
+  height: .44rem;
+  background-color: #FF3333;
+  width: 100%;
+  position: fixed; }
+  #setting-header ul {
+    height: .44rem;
+    width: 100%;
+    display: flex;
+    align-items: center; }
+    #setting-header ul li {
+      margin-left: 5%;
+      color: white;
+      font-size: .16rem; }
+      #setting-header ul li a {
+        color: white; }
+
+#setting-body {
+  flex: 1;
+  width: 100%;
+  padding-top: .44rem;
+  overflow: auto;
+  background-color: white; }
+  #setting-body h3 {
+    height: .3rem;
+    font-size: .14rem;
+    margin: 0;
+    margin-left: 3%;
+    color: darkgrey;
+    line-height: .3rem; }
+  #setting-body ul {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white; }
+    #setting-body ul li {
+      width: 90%;
+      height: .44rem;
+      align-items: center;
+      margin-left: 5%;
+      line-height: .44rem; }
+      #setting-body ul li p {
+        display: inline-block;
+        float: right; }
+      #setting-body ul li .el-switch {
+        float: right;
+        margin-top: .1rem; }
+    #setting-body ul li:nth-last-of-type(1) {
+      border-bottom: .011rem solid gainsboro; }
+
+/*# sourceMappingURL=setting.css.map */

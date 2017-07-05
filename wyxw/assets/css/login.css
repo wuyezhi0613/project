@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: .14rem; }
+
+b, h1, h2, h3, h4 {
+  font-weight: 100; }
+
+i, p {
+  font-style: normal; }
+
+html {
+  font-size: 26.67vw; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: ghostwhite; }
+
+#login-header {
+  height: .44rem;
+  background-color: #FF3333;
+  width: 100%;
+  position: fixed; }
+  #login-header ul {
+    height: .44rem;
+    width: 100%;
+    display: flex;
+    align-items: center; }
+    #login-header ul li {
+      margin-left: 5%;
+      color: white;
+      font-size: .16rem; }
+      #login-header ul li a {
+        color: white; }
+
+#login-body {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  padding-top: .44rem; }
+  #login-body .login-body-top {
+    width: 94%;
+    margin-left: 3%;
+    margin-top: .1rem;
+    background-color: white;
+    border-bottom: .011rem solid gainsboro;
+    box-shadow: 0px 2px 2px gainsboro; }
+    #login-body .login-body-top ul li {
+      height: .5rem; }
+      #login-body .login-body-top ul li i {
+        margin-left: 3%;
+        margin-right: 3%;
+        color: grey; }
+      #login-body .login-body-top ul li input {
+        width: 80%;
+        border: none;
+        height: .5rem;
+        color: darkgray;
+        background-color: white;
+        outline: none;
+        border-bottom: .011rem solid gainsboro; }
+    #login-body .login-body-top ul li:nth-last-of-type(1) {
+      height: .4rem;
+      border-bottom: .011rem solid gainsboro; }
+      #login-body .login-body-top ul li:nth-last-of-type(1) input {
+        height: .4rem;
+        margin-left: 10%; }
+  #login-body .login-body-bottom {
+    width: 94%;
+    margin-left: 3%;
+    margin-top: .1rem;
+    background-color: white;
+    border-bottom: .011rem solid gainsboro;
+    box-shadow: 0px 2px 2px gainsboro; }
+    #login-body .login-body-bottom span {
+      display: inline-block;
+      display: flex;
+      font-size: .12rem;
+      align-items: center;
+      justify-content: center;
+      height: .4rem;
+      color: darkgray; }
+    #login-body .login-body-bottom a {
+      color: darkgray; }
+    #login-body .login-body-bottom p {
+      display: inline-block;
+      display: flex;
+      align-items: center;
+      margin-left: 80%;
+      width: 100%;
+      height: .3rem;
+      font-size: .12rem; }
+    #login-body .login-body-bottom ul {
+      display: flex;
+      height: .5rem;
+      align-items: center;
+      justify-content: center; }
+      #login-body .login-body-bottom ul li {
+        width: 30%;
+        flex: 1;
+        text-align: center; }
+        #login-body .login-body-bottom ul li i {
+          font-size: .5rem; }
+      #login-body .login-body-bottom ul li:nth-of-type(1) i {
+        color: limegreen; }
+      #login-body .login-body-bottom ul li:nth-of-type(2) i {
+        color: orange; }
+      #login-body .login-body-bottom ul li:nth-of-type(3) i {
+        color: #00BFFF; }
+
+/*# sourceMappingURL=login.css.map */

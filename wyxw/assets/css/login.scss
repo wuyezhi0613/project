@@ -1,0 +1,143 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+    box-sizing:border-box;
+    font-size:.14rem;   
+}
+b,h1,h2,h3,h4{
+    font-weight:100;
+}
+i,p{
+    font-style:normal;
+}
+
+html{
+    font-size: 26.67vw;
+}
+html,body{
+    height:100%;
+    width:100%;
+    background-color: ghostwhite;
+}
+#login-header{
+    height: .44rem;
+    background-color: #FF3333;
+    width: 100%;
+    position: fixed;
+    ul{
+        height:.44rem;
+        width:100%;
+        display:flex;
+        align-items: center;
+        li{
+            margin-left: 5%;
+            color: white;
+            font-size: .16rem;
+            a{
+                color: white;
+            }
+        }
+    }      
+}
+#login-body{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    padding-top: .44rem;
+    .login-body-top{
+        width: 94%;
+        margin-left: 3%;
+        margin-top: .1rem;
+        background-color: white;
+        border-bottom: .011rem solid gainsboro;
+        box-shadow: 0px 2px 2px gainsboro;
+        ul{
+            li{
+                height: .5rem;  
+                i{
+                    margin-left: 3%;
+                    margin-right: 3%;
+                    color: grey;
+                }
+                input{
+                    width: 80%;
+                    border: none;
+                    height: .5rem;
+                    color: darkgray; 
+                    background-color: white;
+                    outline: none;
+                    border-bottom: .011rem solid gainsboro;
+                }               
+            }
+            li:nth-last-of-type(1){
+                height: .4rem;
+                border-bottom: .011rem solid gainsboro;
+                input{
+                    height: .4rem;
+                    margin-left: 10%;              
+                }
+            }            
+        }
+    }
+    .login-body-bottom{
+        width: 94%;
+        margin-left: 3%;
+        margin-top: .1rem;
+        background-color: white;
+        border-bottom: .011rem solid gainsboro;
+        box-shadow: 0px 2px 2px gainsboro;
+        span{
+            display: inline-block;
+            display: flex;
+            font-size: .12rem;
+            align-items: center;
+            justify-content: center;
+            height: .4rem;
+            color: darkgray;
+        }
+        a{
+            color: darkgray;
+        }
+        p{
+            display: inline-block;
+            display: flex;
+            align-items: center;
+            margin-left: 80%;
+            width: 100%;
+            height: .3rem;
+            font-size: .12rem;
+        }
+        ul{
+            display: flex;
+            height: .5rem;
+            align-items: center;
+            justify-content: center;
+            li{
+                width: 30%;
+                flex: 1; 
+                text-align: center;             
+                i{
+                    font-size: .5rem;
+                }
+            }
+            li:nth-of-type(1){           
+                i{
+                    color: limegreen;
+                }
+            }
+            li:nth-of-type(2){           
+                i{
+                    color: orange;
+                }
+            }
+            li:nth-of-type(3){           
+                i{
+                    color: #00BFFF;
+                }
+            }            
+        }
+    }
+}

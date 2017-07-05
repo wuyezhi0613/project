@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../font/icon/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/signIn.css"/>
+		<link rel="stylesheet" type="text/css" href="../lib/swiper-3.4.1.min.css"/>
+	</head>
+	<body>
+		<div id="signIn-header">
+			<ul class="ul1">
+    	        <li>
+    	        	<a href="../me.html"><!--返回上一页-->
+    	        		<i class="iconfont icon-quxiao"></i>
+    	        	</a>
+    	        </li>
+    	        <li>签到</li>
+    	        <li><!--弹窗-->
+    	        	<span class="showBigBox">分享</span>
+    	        </li>
+            </ul>
+            <div class="bigBox">
+	       		<div class="top"></div>
+				<div class="bottom">
+		            <ul>
+		            	<li>
+		            		<i class="iconfont icon-weixin"></i>
+		            		<a href="http://p.weixin.qq.com">
+		            		    <b>微信</b>
+		            		</a>          		
+		            	</li>
+		            	<li>
+		            		<i class="iconfont icon-weibiaoti103"></i>
+		            		<b>微信朋友圈</b>
+		            	</li>
+		            	<li>
+		            		<i class="iconfont icon-weibo"></i>
+		            		<a href="https://c.weibo.cn">
+		            		    <b>微博</b>
+		            		</a>
+		            	</li>
+		            	<li>
+		            		<i class="iconfont icon-weibiaoti104"></i>
+		            		<a href="http://i.qq.com/">
+		            		    <b>QQ空间</b>
+		            		</a>
+		            	</li>
+		            	<li>
+		            		<i class="iconfont icon-weibiaoti102"></i>
+		            		<a href="http://im.qq.com/mobileqq/">
+		            		    <b>QQ</b>
+		            		</a>
+		            	</li>
+		            	<li>
+		            		<i class="iconfont icon-gengduo" id="close"></i>
+		            		<b>更多</b>
+		            	</li>
+		            </ul>
+				</div>			
+			</div>
+       </div>
+       <div id="signIn-body">
+       	    <div class="signIn-content-one">
+       	    	<ul>
+       	    		<li>
+       	    			<p>
+       	    			<i class="iconfont icon-liwu"></i>
+       	    			   63金币
+       	    			</p>
+       	    		</li>
+       	    		<li><p>藏鸡阁&gt;</p></li>
+       	    	</ul>
+       	    </div>
+       	    <div class="signIn-content-two">
+       	    	<span class="aa">听说签到点鸡会得到鸡主送的礼物?</span>
+       	    	<span class="bb">
+       	    		<i class="iconfont icon-ji"></i>
+       	    	</span>
+       	    </div> 
+       	    <div class="signIn-content-three">
+       	    	<h4>1/28天</h4>
+       	    	<ul>
+       	    		<li><i class="iconfont icon-ji"></i><p>已签</p></li>
+       	    		<li><i class="iconfont icon-ji"></i><p>14金币</p></li>
+       	    		<li><i class="iconfont icon-ji"></i><p>14金币</p></li>
+       	    		<li><i class="iconfont icon-ji"></i><p>14金币</p></li>
+       	    		<li><i class="iconfont icon-ji"></i><p>14金币</p></li>
+       	    		<li><i class="iconfont icon-ji"></i><p>14金币</p></li>
+       	    		<li><i class="iconfont icon-ji"></i><p>14金币</p></li>
+       	    		<li><i class="iconfont icon-ji"></i><p>1</p></li>
+       	    		<li><i class="iconfont icon-ji"></i><p>1</p></li>
+       	    		<li><i class="iconfont icon-ji"></i><p>1</p></li>
+       	    		<li><i class="iconfont icon-ji"></i><p>1</p></li>
+       	    		<li><i class="iconfont icon-ji"></i><p>1</p></li>
+       	    		<li><i class="iconfont icon-ji"></i><p>1</p></li>
+       	    		<li><i class="iconfont icon-ji"></i><p>1</p></li>
+       	    		<li><i class="iconfont icon-ji"></i><p>1</p></li>
+       	    		<li><i class="iconfont icon-ji"></i><p>1</p></li>
+       	    		<li><i class="iconfont icon-ji"></i><p>1</p></li>
+       	    		<li><i class="iconfont icon-ji"></i><p>1</p></li>
+       	    	</ul>
+       	    	<span>？签到规则<p>连续断签七天，退回起点</p></span>       	    	
+       	    </div>
+       	    <div class="signIn-content-four">
+       	    	<div class="sign-left">
+       	    		<div id="date" onload="currentTime()">
+       	    			<i>25</i>
+       	    			<b>2017.06</b>
+       	    		</div>
+       	    		<span>每日一签</span>
+       	    	</div>
+       	    	<div class="sign-right">
+       	    		<h5>温故而知新闻</h5>
+       	    		<p>当今天的新闻都沦为谈资，过去的旧闻更应该拿出来反思，启发思考。</p>
+       	    		<span>每日签&gt;</span>
+       	    	</div>       	    	
+       	    </div>
+       	    <div class="signIn-content-five">
+       	    	<div class="constellation-left">
+       	    		<div class="icon">
+       	    			<i class="iconfont icon-xingzuoshuangzizuo"></i>
+       	    		</div>
+       	    		<p>双子座</p>
+       	    		<b>05.21~06.21</b>
+       	    		<span>更换星座</span>
+       	    	</div>
+       	    	<div class="constellation-right">
+       	    		<h5>
+       	    			今日整体运势
+       	    			<i class="iconfont icon-xingxing"></i>
+       	    			<i class="iconfont icon-xingxing"></i>
+       	    			<i class="iconfont icon-xingxing"></i>
+       	    			<i class="iconfont icon-xingxing"></i>
+       	    			<i class="iconfont icon-xingxing"></i>
+       	    		</h5>   	    		
+       	    		<p>头有点痛，心还有点累，易疲劳，易流眼泪……你像个多愁善感的文艺青年，有四体不勤之嫌。多活动身体，尤其应常去户外呼吸新鲜空气，身心的感觉会越来越好。</p>
+       	    	</div>       	    	
+       	    </div>
+       	    <div class="swiper-container">
+		        <div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="../img/a1.jpg"/>
+					</div>
+					<div class="swiper-slide">
+						<img src="../img/a2.jpg"/>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+		    </div>
+       </div>
+	</body>
+</html>
+<script src="../lib/swiper-3.4.1.min.js" type="text/javascript"></script>
+<script src="../lib/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script type="text/javascript">	
+	var mySwiper = new Swiper('.swiper-container',{
+		pagination : '.swiper-pagination',
+		autoplay : true,
+		speed : 3000
+    });
+    
+    $(".showBigBox").click(function(){
+		$(".bigBox").show(function(){
+		})
+    }) 
+    $(".top").click(function(){
+	    $(".bigBox").hide();
+    });
+    $("#close").click(function(){
+		$(".bigBox").hide();
+	})
+</script>

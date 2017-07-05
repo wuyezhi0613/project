@@ -1,0 +1,191 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+    box-sizing:border-box;
+    font-size:.14rem;   
+}
+b,h1,h2,h3,h4{
+    font-weight:100;
+}
+i,p{
+    font-style:normal;
+}
+
+html{
+    font-size: 26.67vw;
+}
+html,body{
+    height:100%;
+    width:100%;
+    background-color: ghostwhite;    
+}
+#shop-header{
+    height: .44rem;
+    background-color: #FF3333;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    ul{
+        height:.44rem;
+        width:100%;
+        display:flex;
+        align-items: center;
+        li{
+            margin-left: 5%;
+            color: white;
+            font-size: .16rem;
+            a{
+                color: white;
+            }
+            i{
+                font-size: .24rem;
+            }
+        }
+        li:nth-last-of-type(1){
+            margin-left: 57%;
+        }
+    }      
+}
+#shop-body{
+    flex:1;
+    overflow:auto;
+    width: 100%;
+    margin-top: .44rem;
+    height: 100%;
+    .swiper-container{
+        height: 1.3rem;
+        width: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .shop-nav{
+        width: 100%;
+        height: .55rem;
+        background-color: white;
+        color: #242424;
+        border-bottom: .011rem solid ghostwhite;
+        ul{
+            height: 100%;
+            display: flex;
+            margin-left: 2%;
+            li{              
+                height: 100%;
+                width: 33%;  
+                line-height: .55rem;
+                text-align: center;
+                border-right: .011rem solid gainsboro;         
+            }
+            li:nth-last-of-type(1){
+                border-right: none;
+            }
+        }
+    }
+    .shop-List{
+        width: 100%;
+        h3{
+           width: 100%;
+           height: .3rem;
+           margin-top: .2rem;
+           border-top: .011rem solid orange;
+           span{
+               display: inline-block;
+               height: .3rem;
+               width: 1rem;
+               color: white;
+               line-height: .3rem;
+               text-align: center;
+               background-color: #FF3333;
+           }
+        } 
+        ul{
+            width: 90%;
+            margin-left: 5%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            li{
+                height: 2rem;
+                width: 48%;
+                margin-top: 3%;
+                display: flex;
+                margin-right: 2%;
+                background-color: white;
+                dl{
+                    width: 100%;
+                    dt{
+                        width: 100%;
+                        height: 1.5rem;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    dd{
+                        margin-left: 3%;
+                        p{
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            height: .3rem;
+                            line-height: .3rem;
+                        }
+                        b{
+                            font-size: .12rem;
+                            color: brown;
+                            height: .2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}
+.outBox{
+    width:100%;
+    height:100%;
+    display:none;
+    z-index: 999;
+    position:fixed;
+    top:0;
+    background: rgba(105,105,105,.8);
+    .top{
+        width: 100%;
+        height: 4rem;
+    }
+    .bottom{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        height: 2.2rem;
+        width: 100%;
+        animation: bott 1s linear ;
+        background-color: white;
+        input{
+            width: 90%;
+            margin-left: 5%;
+            margin-top:.1rem ;
+            height: .4rem;
+            border-radius: 3px;
+            border: .011rem solid gainsboro;
+            background: none;
+        }
+    }
+    @keyframes bott {
+        from{
+            bottom: -2.2rem;
+        }
+        to{
+            bottom: 0 ;
+        }
+    }
+}
+.loading{
+    position: relative;
+    margin: 1.5rem 1.5rem;
+}

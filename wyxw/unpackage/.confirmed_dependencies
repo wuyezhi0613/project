@@ -1,0 +1,10 @@
+{
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "build/main.bundle.js"
+    ],
+    "refer": [],
+    "priority": 0
+  }
+}

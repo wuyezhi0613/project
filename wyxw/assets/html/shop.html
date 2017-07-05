@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	</head>
+    <link rel="stylesheet" type="text/css" href="../css/shop.css"/>
+    <link rel="stylesheet" type="text/css" href="../font/icon/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="../lib/swiper-3.4.1.min.css"/>
+	<body>
+		<div id="shop-header">
+			<ul>
+    	        <li>
+    	        	<a href="../me.html"><!--返回上一页-->
+    	        		<i class="iconfont icon-quxiao"></i>
+    	        	</a>
+    	        </li>
+    	        <li>金币商城</li>
+    	        <li><!--弹窗-->
+    	        	<i class="iconfont icon-ttpodicon showOutBox"></i>
+    	        </li>
+            </ul>
+            <div class="outBox">
+            	<div class="top"></div>
+				<div class="bottom">
+	                <input type="button" value="刷新" id="refresh" />
+	                <input type="button" value="分享" id="share"/>
+	                <input type="button" value="我要报错" id="error"/>
+	                <input type="button" value="取消" id="cancel" />
+				</div>			
+			</div>
+		</div>
+		<div id="shop-body">
+			<div class="shop-content">
+				<!--轮播图-->
+				<div class="swiper-container">
+			        <div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="../img/a1.jpg"/>
+						</div>
+						<div class="swiper-slide">
+							<img src="../img/a2.jpg"/>
+						</div>
+						<div class="swiper-slide">
+							<img src="../img/a3.jpg"/>
+						</div>
+						<div class="swiper-slide">
+							<img src="../img/a4.jpg"/>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+			    </div>
+			    <div class="shop-nav">
+			    	<ul>
+			    		<li>我的商城</li>
+			    		<li>金币易捐</li>
+			    		<li>每日签到</li>
+			    	</ul>
+			    </div>
+			    <div class="shop-List">
+			    	<h3>
+			    		<span>金币夺宝</span>
+			    	</h3>
+			    	<ul>
+			    		<!--描述：动态获取商品列表-->
+			    	</ul>
+			    </div>
+			    <div class="loading">
+                    <img src="../img/1.gif" />
+			    </div>
+			</div>
+			
+		</div>
+		
+	</body>
+</html>
+<script src="../lib/swiper-3.4.1.min.js" type="text/javascript"></script>
+<script src="../lib/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="../js/shop.js" type="text/javascript"></script>
